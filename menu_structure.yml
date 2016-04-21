@@ -7,11 +7,11 @@ assen landschap:
     - regio
     - nationaal
     - internationaal
-    - ontwikkelfase:
-      - visie
-      - masterplan
-      - stedenbouwkundig
-      - inrichting
+  ontwikkelfase:
+    - visie
+    - masterplan
+    - stedenbouwkundig
+    - inrichting
 output:
   financieel:
     - capex/opex
