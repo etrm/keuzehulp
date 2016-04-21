@@ -1,6 +1,6 @@
 ---
-assen_landschap:
-  geografische_schaal:
+assen landschap:
+  geografische schaal:
     - woning
     - wijk
     - stad
@@ -16,94 +16,94 @@ output:
   financieel:
     - capex/opex
     - prijsvorming van commodity
-    - co2_effecten
+    - co2 effecten
     - werkgelegenheid
     - energievraag
     - energieproductie
   tijdsaspect:
     - zichtjaar
     - tussenjaren
-    - tijdsresulutie_uitkomst_minuut
-    - tijdsresulutie_uitkomst_kwartier
-    - tijdsresulutie_uitkomst_uur
-    - tijdsresulutie_uitkomst_dag
-    - tijdsresulutie_uitkomst_week
-    - tijdsresulutie_uitkomst_maand
-    - tijdsresulutie_uitkomst_jaar
-  infrastructuurberekeningen_zoals_loadflow_en_piekvraag:
-    - electriciteit_infrastructuur
-    - gas_infrastructuur
-    - warmte_infrastructuur
-    - labelsprong_woning
-    - import/export_van_energie
-    - hoeveelheid_duurzame_energieproductie
+    - tijdsresulutie uitkomst minuut
+    - tijdsresulutie uitkomst kwartier
+    - tijdsresulutie uitkomst uur
+    - tijdsresulutie uitkomst dag
+    - tijdsresulutie uitkomst week
+    - tijdsresulutie uitkomst maand
+    - tijdsresulutie uitkomst jaar
+  infrastructuurberekeningen zoals loadflow en piekvraag:
+    - electriciteit infrastructuur
+    - gas infrastructuur
+    - warmte infrastructuur
+    - labelsprong woning
+    - import/export van energie
+    - hoeveelheid duurzame energieproductie
     - biofootprint
-visualisatie_output:
+visualisatie output:
   - geografisch
   - tabellen
   - grafiek
 systeemcomponenten:
   productie:
-    centrale_groene_opwek:
+    centrale groene opwek:
       - bij/meestook
       - biogas
-      - centraal_wind
-      - pv_zonnepark
-      - centraal_grijs
-    lokaal_groene_opwek:
+      - centraal wind
+      - pv zonnepark
+      - centraal grijs
+    lokaal groene opwek:
       - wko
       - warmtepomp
       - restwarmte
-      - lokaal_biogas
+      - lokaal biogas
       - collector
       - pv
-      - lokaal_wind
+      - lokaal wind
       - geothermie
-    lokaal_grijze_opwek:
+    lokaal grijze opwek:
       - wkk
-      - micro_wkk
-    energiefuncties_categorie_energierapport:
+      - micro wkk
+    energiefuncties categorie energierapport:
       - ruimteverwarming
       - vervoer
-      - proceswarmte_industrie
+      - proceswarmte industrie
       - elektriciteit
-    transport-_en_distributienetten:
+    transport- en distributienetten:
       elektriciteit:
         - laagspanning
         - middenspanning
         - hoogspanning
       gas:
-        - lage_druk
-        - midden_druk
-        - hoge_druk
+        - lage druk
+        - midden druk
+        - hoge druk
       warmte:
-        - lage_temperatuur
-        - hoge_temperatur
-        - net_inlaadbaar/opbouwbaar_in_het_model
-        - net_benaderd_middels_standaard_of_kengetal
+        - lage temperatuur
+        - hoge temperatur
+        - net inlaadbaar/opbouwbaar in het model
+        - net benaderd middels standaard of kengetal
       mobiliteit:
-        - elektrisch_vervoer
+        - elektrisch vervoer
       flexibiliteitsdiensten:
-        - demand_response
+        - demand response
       opslag:
         - elektriciteit
         - gas
         - warmte
-        - conversietechnologie_(p2g_p2h_etc)
+        - conversietechnologie (p2g p2h etc)
         - prijsmechanismen
-        - co2_afvang
+        - co2 afvang
     energievraag:
-      - onderscheid_klantsegmenten
+      - onderscheid klantsegmenten
     verbruikspatroon:
-      - per_minuut
-      - per_kwartier
-      - per_uur
-      - per_dag
-      - per_week
-      - per_maand
-      - per_jaar
-    aggregatieniveau_vraagprofiel:
-      - huishoudelijk_apparaat
+      - per minuut
+      - per kwartier
+      - per uur
+      - per dag
+      - per week
+      - per maand
+      - per jaar
+    aggregatieniveau vraagprofiel:
+      - huishoudelijk apparaat
       - auto
       - aansluiting
       - wijk
@@ -111,37 +111,37 @@ systeemcomponenten:
       - regio
       - nationaal
       - internationaal
-    specifieke_applicaties:
-      - elektrisch_vervoer
+    specifieke applicaties:
+      - elektrisch vervoer
       - warmtepomp
-      - demand_response
-markten_en_business_cases:
-  - bestaande_marktrollen
-  - nieuwe_nog_niet_bestaande_marktrollen_–_zoals_aggregator
+      - demand response
+markten en business cases:
+  - bestaande marktrollen
+  - nieuwe nog niet bestaande marktrollen – zoals aggregator
   - stakeholders
-  - simulatie_prijsvorming
-  - overheidsmaatregelen_instelbaar
-staat_van_het_model/maturity_level:
-  - framework_waarbij_voor_een_specifieke_vraag_verder_ontwikkeld_moet_worden
-  - gereed_model_waarvoor_parameters/data_ingevuld_hoeven_worden
-gebruik_van_het_model:
-  hoe_lang_duurt_instellen_van_het_model:
+  - simulatie prijsvorming
+  - overheidsmaatregelen instelbaar
+staat van het model/maturity level:
+  - framework waarbij voor een specifieke vraag verder ontwikkeld moet worden
+  - gereed model waarvoor parameters/data ingevuld hoeven worden
+gebruik van het model:
+  hoe lang duurt instellen van het model:
     - 0 tot 0.5 mandagen
     - 1 mandag
     - 1 tot 10 mandagen
-  benodigde_voorbereidingstijd_voordat_model_gebruikt_kan_worden:
+  benodigde voorbereidingstijd voordat model gebruikt kan worden:
     - 0 uur
     - 1 uur
     - 1 tot 10 uur
     - 10 tot 100 uur
-    - zelfstandig_bedienbaar
-    - bedienbaar_middels_expert
-verkrijgbaarheid_van_het_model:
+    - zelfstandig bedienbaar
+    - bedienbaar middels expert
+verkrijgbaarheid van het model:
   - dienst/expertmodel
   - product
   - openbaar
-informatie_over_model:
-  - documentatie_over_model
+informatie over model:
+  - documentatie over model
   - voorbeeldcases
-  - website_met_uitleg
+  - website met uitleg
 
