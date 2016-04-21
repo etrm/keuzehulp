@@ -1,14 +1,147 @@
 ---
-Output:
-  Financieel:
-    - Capex/Opex
-    - Prijsvorming van commodity
-Geografische schaal:
-  - Internationaal
-  - Nationaal
-  - Regionaal
-  - Stad
-  - Wijk
-  - Huis
+assen_landschap:
+  geografische_schaal:
+    - woning
+    - wijk
+    - stad
+    - regio
+    - nationaal
+    - internationaal
+    - ontwikkelfase:
+      - visie
+      - masterplan
+      - stedenbouwkundig
+      - inrichting
+output:
+  financieel:
+    - capex/opex
+    - prijsvorming van commodity
+    - co2_effecten
+    - werkgelegenheid
+    - energievraag
+    - energieproductie
+  tijdsaspect:
+    - zichtjaar
+    - tussenjaren
+    - tijdsresulutie_uitkomst_minuut
+    - tijdsresulutie_uitkomst_kwartier
+    - tijdsresulutie_uitkomst_uur
+    - tijdsresulutie_uitkomst_dag
+    - tijdsresulutie_uitkomst_week
+    - tijdsresulutie_uitkomst_maand
+    - tijdsresulutie_uitkomst_jaar
+  infrastructuurberekeningen_zoals_loadflow_en_piekvraag:
+    - electriciteit_infrastructuur
+    - gas_infrastructuur
+    - warmte_infrastructuur
+    - labelsprong_woning
+    - import/export_van_energie
+    - hoeveelheid_duurzame_energieproductie
+    - biofootprint
+visualisatie_output:
+  - geografisch
+  - tabellen
+  - grafiek
+systeemcomponenten:
+  productie:
+    centrale_groene_opwek:
+      - bij/meestook
+      - biogas
+      - centraal_wind
+      - pv_zonnepark
+      - centraal_grijs
+    lokaal_groene_opwek:
+      - wko
+      - warmtepomp
+      - restwarmte
+      - lokaal_biogas
+      - collector
+      - pv
+      - lokaal_wind
+      - geothermie
+    lokaal_grijze_opwek:
+      - wkk
+      - micro_wkk
+    energiefuncties_categorie_energierapport:
+      - ruimteverwarming
+      - vervoer
+      - proceswarmte_industrie
+      - elektriciteit
+    transport-_en_distributienetten:
+      elektriciteit:
+        - laagspanning
+        - middenspanning
+        - hoogspanning
+      gas:
+        - lage_druk
+        - midden_druk
+        - hoge_druk
+      warmte:
+        - lage_temperatuur
+        - hoge_temperatur
+        - net_inlaadbaar/opbouwbaar_in_het_model
+        - net_benaderd_middels_standaard_of_kengetal
+      mobiliteit:
+        - elektrisch_vervoer
+      flexibiliteitsdiensten:
+        - demand_response
+      opslag:
+        - elektriciteit
+        - gas
+        - warmte
+        - conversietechnologie_(p2g_p2h_etc)
+        - prijsmechanismen
+        - co2_afvang
+    energievraag:
+      - onderscheid_klantsegmenten
+    verbruikspatroon:
+      - per_minuut
+      - per_kwartier
+      - per_uur
+      - per_dag
+      - per_week
+      - per_maand
+      - per_jaar
+    aggregatieniveau_vraagprofiel:
+      - huishoudelijk_apparaat
+      - auto
+      - aansluiting
+      - wijk
+      - stad
+      - regio
+      - nationaal
+      - internationaal
+    specifieke_applicaties:
+      - elektrisch_vervoer
+      - warmtepomp
+      - demand_response
+markten_en_business_cases:
+  - bestaande_marktrollen
+  - nieuwe_nog_niet_bestaande_marktrollen_–_zoals_aggregator
+  - stakeholders
+  - simulatie_prijsvorming
+  - overheidsmaatregelen_instelbaar
+staat_van_het_model/maturity_level:
+  - framework_waarbij_voor_een_specifieke_vraag_verder_ontwikkeld_moet_worden
+  - gereed_model_waarvoor_parameters/data_ingevuld_hoeven_worden
+gebruik_van_het_model:
+  hoe_lang_duurt_instellen_van_het_model:
+    - 0 tot 0.5 mandagen
+    - 1 mandag
+    - 1 tot 10 mandagen
+  benodigde_voorbereidingstijd_voordat_model_gebruikt_kan_worden:
+    - 0 uur
+    - 1 uur
+    - 1 tot 10 uur
+    - 10 tot 100 uur
+    - zelfstandig_bedienbaar
+    - bedienbaar_middels_expert
+verkrijgbaarheid_van_het_model:
+  - dienst/expertmodel
+  - product
+  - openbaar
+informatie_over_model:
+  - documentatie_over_model
+  - voorbeeldcases
+  - website_met_uitleg
 
-...ET CETERA!
