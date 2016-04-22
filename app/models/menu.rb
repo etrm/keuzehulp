@@ -2,12 +2,10 @@ require 'yaml'
 
 class Menu
 
-  def initialize
-    @menu = YAML.load_file(Rails.root.join('data/menu_structure.yml'))
-  end
+  attr_reader :hash
 
-  def hash
-    @menu
+  def initialize
+    @hash = YAML.load_file(Rails.root.join('data/menu_structure.yml'))
   end
 
 end
