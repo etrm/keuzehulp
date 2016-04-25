@@ -1,147 +1,147 @@
 ---
-assen landschap:
-  geografische schaal:
-    - woning
-    - wijk
-    - stad
-    - regio
-    - nationaal
-    - internationaal
+assen_landschap:
+  geografische_schaal:
+    - woning_schaal
+    - wijk_schaal
+    - stad_schaal
+    - regio_schaal
+    - nationaal_schaal
+    - internationaal_schaal
   ontwikkelfase:
-    - visie
-    - masterplan
-    - stedenbouwkundig
-    - inrichting
+    - visie_fase
+    - masterplan_fase
+    - stedenbouwkundig_fase
+    - inrichting_fase
 output:
   financieel:
-    - capex/opex
-    - prijsvorming van commodity
-    - co2 effecten
+    - capex_opex
+    - prijsvorming_van_commodity
+    - co2_effecten
     - werkgelegenheid
     - energievraag
     - energieproductie
   tijdsaspect:
     - zichtjaar
     - tussenjaren
-    - tijdsresulutie uitkomst minuut
-    - tijdsresulutie uitkomst kwartier
-    - tijdsresulutie uitkomst uur
-    - tijdsresulutie uitkomst dag
-    - tijdsresulutie uitkomst week
-    - tijdsresulutie uitkomst maand
-    - tijdsresulutie uitkomst jaar
-  infrastructuurberekeningen zoals loadflow en piekvraag:
-    - electriciteit infrastructuur
-    - gas infrastructuur
-    - warmte infrastructuur
-    - labelsprong woning
-    - import/export van energie
-    - hoeveelheid duurzame energieproductie
+    - tijdsresolutie_uitkomst_minuut
+    - tijdsresolutie_uitkomst_kwartier
+    - tijdsresolutie_uitkomst_uur
+    - tijdsresolutie_uitkomst_dag
+    - tijdsresolutie_uitkomst_week
+    - tijdsresolutie_uitkomst_maand
+    - tijdsresolutie_uitkomst_jaar
+  infrastructuurberekeningen:
+    - electriciteit_infrastructuur
+    - gas_infrastructuur
+    - warmte_infrastructuur
+    - labelsprong_woning
+    - import/export_van_energie
+    - hoeveelheid_duurzame_energieproductie
     - biofootprint
-visualisatie output:
+visualisatie_output:
   - geografisch
   - tabellen
-  - grafiek
+  - grafieken
 systeemcomponenten:
   productie:
-    centrale groene opwek:
-      - bij/meestook
-      - biogas
-      - centraal wind
-      - pv zonnepark
-      - centraal grijs
-    lokaal groene opwek:
+    centrale_groene_opwek:
+      - bij_meestook
+      - biogas_opwek
+      - centraal_wind
+      - pv_zonnepark
+      - centraal_grijs
+    lokaal_groene_opwek:
       - wko
       - warmtepomp
       - restwarmte
-      - lokaal biogas
+      - lokaal_biogas
       - collector
       - pv
-      - lokaal wind
+      - lokaal_wind
       - geothermie
-    lokaal grijze opwek:
+    lokaal_grijze_opwek:
       - wkk
-      - micro wkk
-    energiefuncties categorie energierapport:
+      - micro_wkk
+    energiefuncties:
       - ruimteverwarming
       - vervoer
-      - proceswarmte industrie
+      - proceswarmte_industrie
       - elektriciteit
-    transport- en distributienetten:
+    transport_en_distributienetten:
       elektriciteit:
         - laagspanning
         - middenspanning
         - hoogspanning
       gas:
-        - lage druk
-        - midden druk
-        - hoge druk
+        - lage_druk
+        - midden_druk
+        - hoge_druk
       warmte:
-        - lage temperatuur
-        - hoge temperatur
-        - net inlaadbaar/opbouwbaar in het model
-        - net benaderd middels standaard of kengetal
+        - lage_temperatuur
+        - hoge_temperatur
+        - net_inlaadbaar_opbouwbaar_in_het_model
+        - net_benaderd_middels_standaard_of_kengetal
       mobiliteit:
-        - elektrisch vervoer
+        - elektrisch_vervoer
       flexibiliteitsdiensten:
-        - demand response
+        - demand_response
       opslag:
-        - elektriciteit
-        - gas
-        - warmte
-        - conversietechnologie (p2g p2h etc)
+        - elektriciteits_opslag
+        - gas_opslag
+        - warmte_opslag
+        - conversietechnologieen
         - prijsmechanismen
-        - co2 afvang
+        - co2_afvang
     energievraag:
-      - onderscheid klantsegmenten
+      - onderscheid_klantsegmenten
     verbruikspatroon:
-      - per minuut
-      - per kwartier
-      - per uur
-      - per dag
-      - per week
-      - per maand
-      - per jaar
-    aggregatieniveau vraagprofiel:
-      - huishoudelijk apparaat
-      - auto
+      - per_minuut
+      - per_kwartier
+      - per_uur
+      - per_dag
+      - per_week
+      - per_maand
+      - per_jaar
+    aggregatieniveau_vraagprofiel:
+      - huishoudelijk_apparaat_profielen
+      - auto_profielen
       - aansluiting
-      - wijk
-      - stad
-      - regio
-      - nationaal
-      - internationaal
-    specifieke applicaties:
-      - elektrisch vervoer
+      - wijk_profielen
+      - stad_profielen
+      - regio_profielen
+      - nationaal_profielen
+      - internationaal_profielen
+    specifieke_applicaties:
+      - elektrisch_vervoer
       - warmtepomp
-      - demand response
-markten en business cases:
-  - bestaande marktrollen
-  - nieuwe nog niet bestaande marktrollen – zoals aggregator
+      - demand_response
+markten_en_business_cases:
+  - bestaande_marktrollen
+  - nieuwe_marktrollen
   - stakeholders
-  - simulatie prijsvorming
-  - overheidsmaatregelen instelbaar
-staat van het model/maturity level:
-  - framework waarbij voor een specifieke vraag verder ontwikkeld moet worden
-  - gereed model waarvoor parameters/data ingevuld hoeven worden
-gebruik van het model:
-  hoe lang duurt instellen van het model:
-    - 0 tot 0.5 mandagen
-    - 1 mandag
-    - 1 tot 10 mandagen
-  benodigde voorbereidingstijd voordat model gebruikt kan worden:
-    - 0 uur
-    - 1 uur
-    - 1 tot 10 uur
-    - 10 tot 100 uur
-    - zelfstandig bedienbaar
-    - bedienbaar middels expert
-verkrijgbaarheid van het model:
+  - simulatie_prijsvorming
+  - overheidsmaatregelen_instelbaar
+staat_van_het_model:
+  - framework
+  - gereed_model
+gebruik_van_het_model:
+  hoe_lang_duurt_instellen_van_het_model:
+    - 0_tot_0.5_mandagen
+    - 1_mandag
+    - 1_tot_10_mandagen
+  benodigde_voorbereidingstijd:
+    - 0_uur
+    - 1_uur
+    - 1_tot_10_uur
+    - 10_tot_100_uur
+    - zelfstandig_bedienbaar
+    - bedienbaar_middels_expert
+verkrijgbaarheid_van_het_model:
   - dienst/expertmodel
   - product
   - openbaar
-informatie over model:
-  - documentatie over model
+informatie_over_model:
+  - documentatie_over_model
   - voorbeeldcases
-  - website met uitleg
+  - website_met_uitleg
 
