@@ -7,7 +7,7 @@ module MenuHelper
       haml_tag :ul do
         enum.each do |key, value|
           haml_tag 'li.parent' do
-            haml_concat key
+            haml_concat t key
             draw_menu(value)
           end
         end
@@ -19,7 +19,7 @@ module MenuHelper
           haml_tag :li do
             haml_tag :input, type: :checkbox, id: key, name: key
             haml_tag :label, for: key do
-              haml_concat key
+              haml_concat t key
             end
           end
         end
