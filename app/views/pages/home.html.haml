@@ -1,3 +1,21 @@
-%h1 Keuzehulp Energietransitierekenmodellen
+%h1 Keuzeoverzicht Energiemodellen
 
-- draw_menu(Menu.new.hash)
+#input
+  %h4 Selecteer welke onderdelen je nodig hebt:
+  = form_tag(root_path, method: :get) do
+    #menu
+      - draw_menu(Menu.new.hash)
+    #actions
+      = submit_tag 'Laat de meest geschikte energiemodellen zien'
+
+#output
+  %h4 De volgende modellen voldoen het beste aan jouw wensen:
+
+  %table
+    %tr
+      %th model
+      %th score
+    - 30.times do |i|
+      %tr
+        %td= "model #{ i + 1 }"
+        %td 0 %

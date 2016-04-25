@@ -6,8 +6,10 @@ module MenuHelper
     when Hash
       haml_tag :ul do
         enum.each do |key, value|
-          haml_tag :li, key
-          draw_menu(value)
+          haml_tag 'li.parent' do
+            haml_concat key
+            draw_menu(value)
+          end
         end
       end
 
