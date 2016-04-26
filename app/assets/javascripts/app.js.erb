@@ -40,4 +40,8 @@ $(document).ready(function(){
   $('input:checkbox').change(function() {
     updateScores();
   });
+
+  $(document).ready(function(){
+    $("#output table").sticky({topSpacing:0});
+  });
 });
