@@ -15,7 +15,7 @@
     %tr
       %th model
       %th score
-    - 30.times do |i|
+    - Model.all.each do |model|
       %tr
-        %td= "model #{ i + 1 }"
-        %td 0 %
+        %td= model.key
+        %td{id: "#{ model.key }_score"} 0 %

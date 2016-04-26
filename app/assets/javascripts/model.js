@@ -1,7 +1,7 @@
-function Model (name) {
-    this.name = name;
-    this.link = 'http://www.et-model.com';
-    this.properties = ['stad', 'gebied'];
+function Model (object) {
+    this.name = object.name;
+    this.link = object.link;
+    this.properties = object.properties;
 
     // Function Score returns value between 0 and 1
     this.score = function(criteria) {
@@ -15,6 +15,6 @@ function Model (name) {
             }
         }
 
-        return matches/criteriaLength
+        return matches / criteriaLength;
     };
 }
