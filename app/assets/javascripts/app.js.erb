@@ -13,7 +13,9 @@ function updateScores () {
 
   $.each(models, function(){
     this.score = calculateScore(criteria, this.properties);
-    $("#" + this.key + "_score").html(toPercentageString(this.score));
+    cell = $("#" + this.key + " > .score");
+    cell.html(toPercentageString(this.score));
+    cell.css({"background-size": toPercentageString(this.score) + " 100%"});
   });
 }
 
