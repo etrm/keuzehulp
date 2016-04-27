@@ -2,16 +2,13 @@
 
 #input
   %h4 Selecteer welke onderdelen je nodig hebt:
-  = form_tag(root_path, method: :get) do
-    #menu
-      - draw_menu(Menu.new.hash)
-    #actions
-      = submit_tag 'Laat de meest geschikte energiemodellen zien'
+  #menu
+    - draw_menu(Menu.new.hash)
 
 #output
   %h4 De volgende modellen voldoen het beste aan jouw wensen:
 
-  %table
+  %table#output_table
     %tr
       %th model
       %th score
