@@ -8,11 +8,11 @@
 #output
   %h4 De volgende modellen voldoen het beste aan jouw wensen:
 
-  %table#output_table
+  %table.table#output_table
     %tr
       %th model
       %th score
     - Model.all.each do |model|
       %tr
-        %td= model.key
+        %td= t model.key
         %td{id: "#{ model.key }_score"} 0 %

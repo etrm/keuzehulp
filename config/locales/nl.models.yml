@@ -1,17 +1,17 @@
 nl:
-  cegoia: CEGOIA
-  cegrid: CEGRID
-  chess: CHESS
-  competes: COMPETES
-  dido: DIDO
+  cegoia: Cegoia
+  cegrid: Cegrid
+  chess: Chess
+  competes: Competes
+  dido: Dido
   dssm: DSSM
   etm: Energietransitiemodel.nl
-  etmoses: ETmoses
+  etmoses: ETMoses
   gebiedsmodel: Gebiedsmodel
   itsf: ITSF
-  mkbins: MKBINS
-  opera: OPERA
-  pico: PICO
+  mkbins: MKBins
+  opera: Opera
+  pico: Pico
   powerfys: Powerfys
   pv_opslag: PV opslag
   vesta: Vesta
