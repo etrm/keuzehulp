@@ -82,7 +82,7 @@ systeemcomponenten:
         - net_inlaadbaar_opbouwbaar_in_het_model
         - net_benaderd_middels_standaard_of_kengetal
       mobiliteit:
-        - elektrisch_vervoer
+        - elektrisch_vervoer_mobiliteit
       flexibiliteitsdiensten:
         - demand_response
       opslag:
@@ -126,7 +126,7 @@ staat_van_het_model:
   - gereed_model
 gebruik_van_het_model:
   hoe_lang_duurt_instellen_van_het_model:
-    - 0_tot_0.5_mandagen
+    - 0_tot_halve_mandag
     - 1_mandag
     - 1_tot_10_mandagen
   benodigde_voorbereidingstijd:
