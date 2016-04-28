@@ -57,7 +57,7 @@ properties:
   - elektrisch_vervoer
   - warmtepomp
   - gereed_model
-  - 0_tot_0.5_mandagen
+  - 0_tot_halve_mandag
   - 0_uur
   - zelfstandig_bedienbaar
   - openbaar

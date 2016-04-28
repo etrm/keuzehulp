@@ -45,7 +45,7 @@ properties:
   - demand_response
   - bestaande_marktrollen
   - gereed_model
-  - 0_tot_0.5_mandagen
+  - 0_tot_halve_mandag
   - 0_uur
   - bedienbaar_middels_expert
   - dienst/expertmodel
