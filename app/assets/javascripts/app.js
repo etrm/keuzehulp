@@ -49,13 +49,19 @@ function sortTable(){
     for(var i=0, len=tbl.rows.length; i<len; i++){
         var row = tbl.rows[i];
         var sortnr = parseFloat(row.cells[1].textContent || row.cells[1].innerText);
-        if(!isNaN(sortnr)) store.push([sortnr, row]);
+        var name = row.cells[0].textContent;
+        if(!isNaN(sortnr)) store.push([sortnr, name, row]);
     }
     store.sort(function(x,y){
-        return y[0] - x[0];
+        if (y[0] > x[0]) return 1;
+        if (y[0] < x[0]) return -1;
+
+        if (y[1] > x[1]) return -1;
+        if (y[1] < x[1]) return 1;
+        return 0;
     });
     for(var i=0, len=store.length; i<len; i++){
-        tbl.appendChild(store[i][1]);
+        tbl.appendChild(store[i][2]);
     }
     store = null;
 }
