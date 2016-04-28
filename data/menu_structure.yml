@@ -62,59 +62,59 @@ systeemcomponenten:
     lokaal_grijze_opwek:
       - wkk
       - micro_wkk
-    energiefuncties:
-      - ruimteverwarming
-      - vervoer
-      - proceswarmte_industrie
-      - elektriciteit
-    transport_en_distributienetten:
-      elektriciteit:
-        - laagspanning
-        - middenspanning
-        - hoogspanning
-      gas:
-        - lage_druk
-        - midden_druk
-        - hoge_druk
-      warmte:
-        - lage_temperatuur
-        - hoge_temperatur
-        - net_inlaadbaar_opbouwbaar_in_het_model
-        - net_benaderd_middels_standaard_of_kengetal
-      mobiliteit:
-        - elektrisch_vervoer_mobiliteit
-      flexibiliteitsdiensten:
-        - demand_response
-      opslag:
-        - elektriciteits_opslag
-        - gas_opslag
-        - warmte_opslag
-        - conversietechnologieen
-        - prijsmechanismen
-        - co2_afvang
-    energievraag:
-      - onderscheid_klantsegmenten
-    verbruikspatroon:
-      - per_minuut
-      - per_kwartier
-      - per_uur
-      - per_dag
-      - per_week
-      - per_maand
-      - per_jaar
-    aggregatieniveau_vraagprofiel:
-      - huishoudelijk_apparaat_profielen
-      - auto_profielen
-      - aansluiting
-      - wijk_profielen
-      - stad_profielen
-      - regio_profielen
-      - nationaal_profielen
-      - internationaal_profielen
-    specifieke_applicaties:
-      - elektrisch_vervoer
-      - warmtepomp
-      - demand_response
+  energiefuncties:
+    - ruimteverwarming
+    - vervoer
+    - proceswarmte_industrie
+    - elektriciteit
+  transport_en_distributienetten:
+    elektriciteit:
+      - laagspanning
+      - middenspanning
+      - hoogspanning
+    gas:
+      - lage_druk
+      - midden_druk
+      - hoge_druk
+    warmte:
+      - lage_temperatuur
+      - hoge_temperatur
+      - net_inlaadbaar_opbouwbaar_in_het_model
+      - net_benaderd_middels_standaard_of_kengetal
+  mobiliteit:
+    - elektrisch_vervoer_mobiliteit
+  flexibiliteitsdiensten:
+    - demand_response
+  opslag:
+    - elektriciteits_opslag
+    - gas_opslag
+    - warmte_opslag
+    - conversietechnologieen
+    - prijsmechanismen
+    - co2_afvang
+  energievraag:
+    - onderscheid_klantsegmenten
+  verbruikspatroon:
+    - per_minuut
+    - per_kwartier
+    - per_uur
+    - per_dag
+    - per_week
+    - per_maand
+    - per_jaar
+  aggregatieniveau_vraagprofiel:
+    - huishoudelijk_apparaat_profielen
+    - auto_profielen
+    - aansluiting
+    - wijk_profielen
+    - stad_profielen
+    - regio_profielen
+    - nationaal_profielen
+    - internationaal_profielen
+  specifieke_applicaties:
+    - elektrisch_vervoer
+    - warmtepomp
+    - demand_response
 markten_en_business_cases:
   - bestaande_marktrollen
   - nieuwe_marktrollen
