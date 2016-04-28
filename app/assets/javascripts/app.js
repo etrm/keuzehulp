@@ -1,4 +1,8 @@
-var models = <%= Model.all.map(&:as_json).to_json %>;
+var models = [];
+
+$.getJSON( "models.json", function( data ) {
+  models = data;
+});
 
 function getCriteria () {
   var selected = [];
