@@ -1,45 +1,45 @@
 var models = [];
 
 $.getJSON( "models.json", function( data ) {
-  models = data;
+    models = data;
 });
 
 function getCriteria () {
-  var selected = [];
-  $('input:checked').each(function() {
-    selected.push($(this).attr('name'));
-  });
-  return selected;
+    var selected = [];
+    $('input:checked').each(function() {
+        selected.push($(this).attr('name'));
+    });
+    return selected;
 }
 
 function updateScores () {
-  var criteria = getCriteria();
+    var criteria = getCriteria();
 
-  $.each(models, function(){
-    this.score = calculateScore(criteria, this.properties);
-    cell = $("#" + this.key + " > .score");
-    cell.html(toPercentageString(this.score));
-    cell.css({"background-size": toPercentageString(this.score) + " 100%"});
-  });
+    $.each(models, function(){
+        this.score = calculateScore(criteria, this.properties);
+        cell = $("#" + this.key + " > .score");
+        cell.html(toPercentageString(this.score));
+        cell.css({"background-size": toPercentageString(this.score) + " 100%"});
+    });
 }
 
 // Calculated score by comparing list of user 'wished' properties
 // with the properties defined by the model.
 function calculateScore(userProperties, modelProperties) {
-  if (userProperties.length == 0) {
-    return 0;
-  }
-  var matches = 0;
-  for (var i = 0; i < userProperties.length; i++) {
-    if ($.inArray(userProperties[i], modelProperties) > -1) {
-      matches++;
+    if (userProperties.length == 0) {
+        return 0;
     }
-  }
-  return matches / userProperties.length;
+    var matches = 0;
+    for (var i = 0; i < userProperties.length; i++) {
+        if ($.inArray(userProperties[i], modelProperties) > -1) {
+            matches++;
+        }
+    }
+    return matches / userProperties.length;
 };
 
 function toPercentageString(number) {
-  return (number*100).toFixed(2) + "%";
+    return (number*100).toFixed(2) + "%";
 }
 
 // From http://stackoverflow.com/a/7558600
@@ -61,12 +61,12 @@ function sortTable(){
 }
 
 $(document).ready(function(){
-  $('input:checkbox').change(function() {
-    updateScores();
-    sortTable();
-  });
+    $('input:checkbox').change(function() {
+        updateScores();
+        sortTable();
+    });
 
-  $(document).ready(function(){
-    $("#output table").sticky({topSpacing:20});
-  });
+    $(document).ready(function(){
+        $("#output table").sticky({topSpacing:20});
+    });
 });
