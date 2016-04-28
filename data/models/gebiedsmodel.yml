@@ -40,7 +40,7 @@ properties:
   - lage_druk
   - lage_temperatuur
   - net_benaderd_middels_standaard_of_kengetal
-  - elektrisch_vervoer
+  - elektrisch_vervoer_mobiliteit
   - elektriciteits_opslag
   - gas_opslag
   - warmte_opslag

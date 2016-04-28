@@ -40,7 +40,7 @@ properties:
   - midden_druk
   - hoge_druk
   - net_benaderd_middels_standaard_of_kengetal
-  - elektrisch_vervoer
+  - elektrisch_vervoer_mobiliteit
   - demand_response
   - elektriciteits_opslag
   - co2_afvang

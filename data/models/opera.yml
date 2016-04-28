@@ -43,7 +43,7 @@ properties:
   - midden_druk
   - lage_temperatuur
   - hoge_temperatur
-  - elektrisch_vervoer
+  - elektrisch_vervoer_mobiliteit
   - demand_response
   - elektriciteits_opslag
   - gas_opslag

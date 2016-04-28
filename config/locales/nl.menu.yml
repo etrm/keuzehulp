@@ -82,7 +82,7 @@ nl:
   net_inlaadbaar_opbouwbaar_in_het_model: net inlaadbaar opbouwbaar in het model
   net_benaderd_middels_standaard_of_kengetal: net benaderd middels standaard of kengetal
   mobiliteit: mobiliteit
-  elektrisch_vervoer: elektrisch vervoer
+  elektrisch_vervoer_mobiliteit: elektrisch vervoer
   flexibiliteitsdiensten: flexibiliteitsdiensten
   demand_response: demand response
   opslag: opslag
@@ -126,7 +126,7 @@ nl:
   gereed_model: gereed model waarvoor parameters/data ingevuld hoeven worden
   gebruik_van_het_model: gebruik van het model
   hoe_lang_duurt_instellen_van_het_model: hoe lang duurt instellen van het model
-  0_tot_0.5_mandagen: 0 tot 0.5 mandagen
+  0_tot_halve_mandag: 0 tot 0.5 mandagen
   1_mandag: 1 mandag
   1_tot_10_mandagen: 1 tot 10 mandagen
   benodigde_voorbereidingstijd: benodigde voorbereidingstijd voordat model gebruikt kan worden

@@ -33,7 +33,7 @@ properties:
   - laagspanning
   - middenspanning
   - net_inlaadbaar_opbouwbaar_in_het_model
-  - elektrisch_vervoer
+  - elektrisch_vervoer_mobiliteit
   - demand_response
   - elektriciteits_opslag
   - prijsmechanismen
