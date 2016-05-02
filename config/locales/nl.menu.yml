@@ -31,7 +31,7 @@ nl:
   tijdsresolutie_uitkomst_maand: tijdsresolutie uitkomst maand
   tijdsresolutie_uitkomst_jaar: tijdsresolutie uitkomst jaar
   infrastructuurberekeningen: infrastructuurberekeningen zoals loadflow en piekvraag
-  electriciteit_infrastructuur: electriciteit infrastructuur
+  electriciteit_infrastructuur: elektriciteit
   gas_infrastructuur: gas
   warmte_infrastructuur: warmte
   labelsprong_woning: labelsprong woning
@@ -62,7 +62,7 @@ nl:
   lokaal_grijze_opwek: lokaal grijze opwek
   wkk: wkk
   micro_wkk: micro wkk
-  energiefuncties: energiefuncties
+  energiefuncties: energiefuncties (als in het Energierapport)
   ruimteverwarming: ruimteverwarming
   vervoer: vervoer
   proceswarmte_industrie: proceswarmte industrie
@@ -84,7 +84,7 @@ nl:
   mobiliteit: mobiliteit
   elektrisch_vervoer_mobiliteit: elektrisch vervoer
   flexibiliteitsdiensten: flexibiliteitsdiensten
-  demand_response: demand response
+  demand_response: vraagsturing
   opslag: opslag
   elektriciteits_opslag: elektriciteits opslag
   gas_opslag: gasopslag
@@ -93,7 +93,7 @@ nl:
   prijsmechanismen: prijsmechanismen
   co2_afvang: co2-afvang
   energievraag: energievraag
-  onderscheid_klantsegmenten: onderscheid klantsegmenten
+  onderscheid_klantsegmenten: meerdere klantsegmenten
   verbruikspatroon: verbruikspatroon
   per_minuut: per minuut
   per_kwartier: per kwartier

@@ -16,10 +16,10 @@ output:
   financieel:
     - capex_opex
     - prijsvorming_van_commodity
-    - co2_effecten
-    - werkgelegenheid
-    - energievraag
-    - energieproductie
+  - co2_effecten
+  - werkgelegenheid
+  - energievraag
+  - energieproductie
   tijdsaspect:
     - zichtjaar
     - tussenjaren
@@ -34,10 +34,10 @@ output:
     - electriciteit_infrastructuur
     - gas_infrastructuur
     - warmte_infrastructuur
-    - labelsprong_woning
-    - import/export_van_energie
-    - hoeveelheid_duurzame_energieproductie
-    - biofootprint
+  - labelsprong_woning
+  - import/export_van_energie
+  - hoeveelheid_duurzame_energieproductie
+  - biofootprint
 visualisatie_output:
   - geografisch
   - tabellen
@@ -49,7 +49,7 @@ systeemcomponenten:
       - biogas_opwek
       - centraal_wind
       - pv_zonnepark
-      - centraal_grijs
+    - centraal_grijs
     lokaal_groene_opwek:
       - wko
       - warmtepomp
@@ -79,8 +79,8 @@ systeemcomponenten:
     warmte:
       - lage_temperatuur
       - hoge_temperatur
-      - net_inlaadbaar_opbouwbaar_in_het_model
-      - net_benaderd_middels_standaard_of_kengetal
+    - net_inlaadbaar_opbouwbaar_in_het_model
+    - net_benaderd_middels_standaard_of_kengetal
   mobiliteit:
     - elektrisch_vervoer_mobiliteit
   flexibiliteitsdiensten:
