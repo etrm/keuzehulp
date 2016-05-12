@@ -1,7 +1,9 @@
 %h1 Keuzeoverzicht Energiemodellen
 
 #input
-  %h4 Selecteer welke onderdelen je nodig hebt:
+  %h4
+    Selecteer welke onderdelen je nodig hebt:
+    %a#wis{href: '#'} wis selectie
   #menu
     - draw_menu(Menu.new.hash)
 

@@ -66,13 +66,36 @@ function sortTable(){
     store = null;
 }
 
+function hideDeselectAll(){
+    $('#wis').hide();
+}
+
+function showDeslectAll(){
+    $('#wis').show();
+}
+
+function updateAll(){
+    updateScores();
+    sortTable();
+    if($('input:checkbox:checked').length > 0) {
+        showDeslectAll();
+    }
+    else {
+        hideDeselectAll();
+    }
+}
+
 $(document).ready(function(){
     $('input:checkbox').change(function() {
-        updateScores();
-        sortTable();
+        updateAll();
     });
 
     $(document).ready(function(){
         $("#output table").sticky({topSpacing:20});
+    });
+
+    $('#wis').hide().click(function(){
+        $('input:checkbox').removeAttr('checked');
+        updateAll();
     });
 });
