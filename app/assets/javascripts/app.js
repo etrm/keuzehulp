@@ -74,15 +74,19 @@ function showDeslectAll(){
     $('#wis').show();
 }
 
-function updateAll(){
-    updateScores();
-    sortTable();
+function renderDeselectAll(){
     if($('input:checkbox:checked').length > 0) {
         showDeslectAll();
     }
     else {
         hideDeselectAll();
     }
+}
+
+function updateAll(){
+    updateScores();
+    sortTable();
+    renderDeselectAll();
 }
 
 $(document).ready(function(){
