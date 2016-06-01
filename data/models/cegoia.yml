@@ -13,6 +13,9 @@ properties:
   - zichtjaar
   - tussenjaren
   - tijdsresolutie_uitkomst_jaar
+  - electriciteit_infrastructuur
+  - gas_infrastructuur
+  - warmte_infrastructuur
   - labelsprong_woning
   - hoeveelheid_duurzame_energieproductie
   - geografisch
