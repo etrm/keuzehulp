@@ -1,8 +1,10 @@
 name: vesta
 properties:
+  - stad_schaal
   - regio_schaal
   - nationaal_schaal
   - visie_fase
+  - masterplan_fase
   - capex_opex
   - co2_effecten
   - energievraag
