@@ -1,0 +1,150 @@
+nl:
+  info: 
+    assen_landschap: assen landschap
+    geografische_schaal: geografische schaal
+    woning_schaal: woning
+    wijk_schaal: wijk
+    stad_schaal: stad
+    regio_schaal: regio
+    nationaal_schaal: nationaal
+    internationaal_schaal: internationaal
+    ontwikkelfase: ontwikkel
+    visie_fase: visie
+    masterplan_fase: masterplan
+    stedenbouwkundig_fase: stedenbouwkundig
+    inrichting_fase: inrichting
+    output: output
+    financieel: financieel
+    capex_opex: capex/opex
+    prijsvorming_van_commodity: prijsvorming van commodity
+    co2_effecten: co2 effecten
+    werkgelegenheid: werkgelegenheid
+    energievraag: energievraag
+    energieproductie: energieproductie
+    tijdsaspect: tijdsaspect
+    zichtjaar: zichtjaar
+    tussenjaren: tussenjaren
+    tijdsresolutie_uitkomst_minuut: tijdsresolutie uitkomst minuut
+    tijdsresolutie_uitkomst_kwartier: tijdsresolutie uitkomst kwartier
+    tijdsresolutie_uitkomst_uur: tijdsresolutie uitkomst uur
+    tijdsresolutie_uitkomst_dag: tijdsresolutie uitkomst dag
+    tijdsresolutie_uitkomst_week: tijdsresolutie uitkomst week
+    tijdsresolutie_uitkomst_maand: tijdsresolutie uitkomst maand
+    tijdsresolutie_uitkomst_jaar: tijdsresolutie uitkomst jaar
+    infrastructuurberekeningen: infrastructuurberekeningen zoals loadflow en piekvraag
+    electriciteit_infrastructuur: elektriciteit
+    gas_infrastructuur: gas
+    warmte_infrastructuur: warmte
+    labelsprong_woning: labelsprong woning
+    import/export_van_energie: import/export van energie
+    hoeveelheid_duurzame_energieproductie: hoeveelheid duurzame energieproductie
+    biofootprint: biofootprint
+    visualisatie_output: visualisatie output
+    geografisch: geografisch
+    tabellen: tabellen
+    grafieken: grafieken
+    systeemcomponenten: systeemcomponenten
+    productie: productie
+    centrale_groene_opwek: centrale groene opwek
+    bij_meestook: bij meestook
+    biogas_opwek: biogas opwek
+    centraal_wind: centraal wind
+    pv_zonnepark: pv zonnepark
+    centraal_grijs: centraal grijs
+    lokaal_groene_opwek: lokaal groene opwek
+    wko: wko
+    warmtepomp: warmtepomp
+    restwarmte: restwarmte
+    lokaal_biogas: lokaal biogas
+    collector: collector
+    pv: pv
+    lokaal_wind: lokaal wind
+    geothermie: geothermie
+    lokaal_grijze_opwek: lokaal grijze opwek
+    wkk: wkk
+    micro_wkk: micro wkk
+    energiefuncties: energiefuncties (als in het Energierapport)
+    ruimteverwarming: ruimteverwarming
+    vervoer: vervoer
+    proceswarmte_industrie: proceswarmte industrie
+    elektriciteit: elektriciteit
+    transport_en_distributienetten: transport en distributienetten
+    elektriciteit: elektriciteit
+    laagspanning: laagspanning
+    middenspanning: middenspanning
+    hoogspanning: hoogspanning
+    gas: gas
+    lage_druk: lage druk
+    midden_druk: midden druk
+    hoge_druk: hoge druk
+    warmte: warmte
+    lage_temperatuur: lage temperatuur
+    hoge_temperatur: hoge temperatur
+    net_inlaadbaar_opbouwbaar_in_het_model: net inlaadbaar opbouwbaar in het model
+    net_benaderd_middels_standaard_of_kengetal: net benaderd middels standaard of kengetal
+    mobiliteit: mobiliteit
+    elektrisch_vervoer_mobiliteit: elektrisch vervoer
+    flexibiliteitsdiensten: flexibiliteitsdiensten
+    demand_response: vraagsturing
+    opslag: opslag
+    elektriciteits_opslag: elektriciteits opslag
+    gas_opslag: gasopslag
+    warmte_opslag: warmteopslag
+    conversietechnologieen: conversietechnologieen
+    prijsmechanismen: prijsmechanismen
+    co2_afvang: co2-afvang
+    energievraag: energievraag
+    onderscheid_klantsegmenten: meerdere klantsegmenten
+    verbruikspatroon: verbruikspatroon
+    per_minuut: per minuut
+    per_kwartier: per kwartier
+    per_uur: per uur
+    per_dag: per dag
+    per_week: per week
+    per_maand: per maand
+    per_jaar: per jaar
+    aggregatieniveau_vraagprofiel: aggregatieniveau vraagprofiel
+    huishoudelijk_apparaat_profielen: huishoudelijk apparaat profielen
+    auto_profielen: auto profielen
+    aansluiting: aansluiting
+    wijk_profielen: wijk profielen
+    stad_profielen: stad profielen
+    regio_profielen: regio profielen
+    nationaal_profielen: nationaal profielen
+    internationaal_profielen: internationaal profielen
+    specifieke_applicaties: specifieke applicaties
+    elektrisch_vervoer: elektrisch vervoer
+    warmtepomp: warmtepomp
+    demand_response: demand response
+    markten_en_business_cases: markten en business cases
+    bestaande_marktrollen: bestaande marktrollen
+    nieuwe_marktrollen: nieuwe marktrollen
+    stakeholders: stakeholders
+    simulatie_prijsvorming: simulatie prijsvorming
+    overheidsmaatregelen_instelbaar: overheidsmaatregelen instelbaar
+    staat_van_het_model: staat van het model
+    framework: framework waarbij voor een specifieke vraag verder ontwikkeld moet worden
+    gereed_model: gereed model waarvoor parameters/data ingevuld hoeven worden
+    gebruik_van_het_model: gebruik van het model
+    hoe_lang_duurt_instellen_van_het_model: hoe lang duurt instellen van het model
+    0_tot_halve_mandag: 0 tot 0.5 mandagen
+    1_mandag: 1 mandag
+    1_tot_10_mandagen: 1 tot 10 mandagen
+    benodigde_voorbereidingstijd: benodigde voorbereidingstijd voordat model gebruikt kan worden
+    0_uur: 0 uur
+    1_uur: 1 uur
+    1_tot_10_uur: 1 tot 10 uur
+    10_tot_100_uur: 10 tot 100 uur
+    zelfstandig_bedienbaar: zelfstandig bedienbaar
+    bedienbaar_middels_expert: bedienbaar middels expert
+    verkrijgbaarheid_van_het_model: verkrijgbaarheid van het model
+    dienst/expertmodel: dienst/expertmodel
+    product: product
+    openbaar: openbaar
+    informatie_over_model: informatie over model
+    documentatie_over_model: documentatie over model
+    voorbeeldcases: voorbeeldcases
+    website_met_uitleg: website met uitleg
+    centraal_grijze_opwek: centraal grijze opwek
+    miscellaneous: overig
+    functionaliteit: functionaliteit
