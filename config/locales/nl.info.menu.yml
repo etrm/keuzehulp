@@ -1,29 +1,29 @@
 nl:
   info: 
-    assen_landschap: assen landschap
-    geografische_schaal: geografische schaal
-    woning_schaal: woning
-    wijk_schaal: wijk
-    stad_schaal: stad
-    regio_schaal: regio
-    nationaal_schaal: nationaal
-    internationaal_schaal: internationaal
-    ontwikkelfase: ontwikkel
-    visie_fase: visie
-    masterplan_fase: masterplan
-    stedenbouwkundig_fase: stedenbouwkundig
-    inrichting_fase: inrichting
-    output: output
-    financieel: financieel
-    capex_opex: capex/opex
-    prijsvorming_van_commodity: prijsvorming van commodity
-    co2_effecten: co2 effecten
-    werkgelegenheid: werkgelegenheid
-    energievraag: energievraag
-    energieproductie: energieproductie
-    tijdsaspect: tijdsaspect
-    zichtjaar: zichtjaar
-    tussenjaren: tussenjaren
+    assen_landschap: Hier worden de verschillende dimensies beschreven waarlangs de modellen worden vergeleken.
+    geografische_schaal: De typische grootte van het gebied waarop de tool van toepassing is.
+    woning_schaal: Woning (1 huis)
+    wijk_schaal: Wijk (typisch 100 a 1000 huizen)
+    stad_schaal: Stad (typisch 10000 tot 1000000 huizen)
+    regio_schaal: Regio (een provincie of gemeente)
+    nationaal_schaal: nationaal (een land)
+    internationaal_schaal: internationaal (meerdere landen of de hele wereld)
+    ontwikkelfase: De fase van het energietransitievraagstuk waarin de tool kan worden ingezet
+    visie_fase: Strategisch oriëntatie. Inzicht in belangrijke ontwikkelingen en toekomstige behoeften; wat zijn kansrijke oplossingen?
+    masterplan_fase: Blauwdruk voor eerste ontwerp. Haalbaarheid, risico’s, fasering
+    stedenbouwkundig_fase: Uitwerking en optimalisatie binnen bestaande ruimtelijke structuur, net-topologie en lokale randvoorwaarden
+    inrichting_fase: Evaluatie en keuze tussen verschillende technische varianten, doorrekenen en detail-ontwerp
+    output: Output van het model
+    financieel: Financieel
+    capex_opex: Capex/Opex
+    prijsvorming_van_commodity: Prijsvorming van commodities zoals elektriciteit, gas, warmte en/of flexibiliteit
+    co2_effecten: CO2-effecten als emissies in tonnen of reducties ten opzichte van een referentie
+    werkgelegenheid: Werkgelegenheidseffecten in termen van FTEs of manuren
+    energievraag: Energievraag
+    energieproductie: Energieproductie
+    tijdsaspect: Over welke tijdschaal geeft het model inzicht?
+    zichtjaar: Er wordt output gegeven voor één toekomstjaar
+    tussenjaren: Er worden meerdere tussenjaren berekend (tijdspaden)
     tijdsresolutie_uitkomst_minuut: tijdsresolutie uitkomst minuut
     tijdsresolutie_uitkomst_kwartier: tijdsresolutie uitkomst kwartier
     tijdsresolutie_uitkomst_uur: tijdsresolutie uitkomst uur
@@ -31,120 +31,120 @@ nl:
     tijdsresolutie_uitkomst_week: tijdsresolutie uitkomst week
     tijdsresolutie_uitkomst_maand: tijdsresolutie uitkomst maand
     tijdsresolutie_uitkomst_jaar: tijdsresolutie uitkomst jaar
-    infrastructuurberekeningen: infrastructuurberekeningen zoals loadflow en piekvraag
-    electriciteit_infrastructuur: elektriciteit
-    gas_infrastructuur: gas
-    warmte_infrastructuur: warmte
-    labelsprong_woning: labelsprong woning
-    import/export_van_energie: import/export van energie
-    hoeveelheid_duurzame_energieproductie: hoeveelheid duurzame energieproductie
-    biofootprint: biofootprint
-    visualisatie_output: visualisatie output
-    geografisch: geografisch
-    tabellen: tabellen
-    grafieken: grafieken
-    systeemcomponenten: systeemcomponenten
-    productie: productie
-    centrale_groene_opwek: centrale groene opwek
-    bij_meestook: bij meestook
-    biogas_opwek: biogas opwek
-    centraal_wind: centraal wind
-    pv_zonnepark: pv zonnepark
-    centraal_grijs: centraal grijs
-    lokaal_groene_opwek: lokaal groene opwek
-    wko: wko
-    warmtepomp: warmtepomp
-    restwarmte: restwarmte
-    lokaal_biogas: lokaal biogas
-    collector: collector
-    pv: pv
-    lokaal_wind: lokaal wind
-    geothermie: geothermie
-    lokaal_grijze_opwek: lokaal grijze opwek
-    wkk: wkk
-    micro_wkk: micro wkk
-    energiefuncties: energiefuncties (als in het Energierapport)
-    ruimteverwarming: ruimteverwarming
-    vervoer: vervoer
-    proceswarmte_industrie: proceswarmte industrie
-    elektriciteit: elektriciteit
-    transport_en_distributienetten: transport en distributienetten
-    elektriciteit: elektriciteit
-    laagspanning: laagspanning
-    middenspanning: middenspanning
-    hoogspanning: hoogspanning
-    gas: gas
-    lage_druk: lage druk
-    midden_druk: midden druk
-    hoge_druk: hoge druk
-    warmte: warmte
-    lage_temperatuur: lage temperatuur
-    hoge_temperatur: hoge temperatur
-    net_inlaadbaar_opbouwbaar_in_het_model: net inlaadbaar opbouwbaar in het model
-    net_benaderd_middels_standaard_of_kengetal: net benaderd middels standaard of kengetal
-    mobiliteit: mobiliteit
-    elektrisch_vervoer_mobiliteit: elektrisch vervoer
-    flexibiliteitsdiensten: flexibiliteitsdiensten
-    demand_response: vraagsturing
-    opslag: opslag
-    elektriciteits_opslag: elektriciteits opslag
-    gas_opslag: gasopslag
-    warmte_opslag: warmteopslag
-    conversietechnologieen: conversietechnologieen
-    prijsmechanismen: prijsmechanismen
-    co2_afvang: co2-afvang
-    energievraag: energievraag
-    onderscheid_klantsegmenten: meerdere klantsegmenten
-    verbruikspatroon: verbruikspatroon
-    per_minuut: per minuut
-    per_kwartier: per kwartier
-    per_uur: per uur
-    per_dag: per dag
-    per_week: per week
-    per_maand: per maand
-    per_jaar: per jaar
-    aggregatieniveau_vraagprofiel: aggregatieniveau vraagprofiel
-    huishoudelijk_apparaat_profielen: huishoudelijk apparaat profielen
-    auto_profielen: auto profielen
-    aansluiting: aansluiting
-    wijk_profielen: wijk profielen
-    stad_profielen: stad profielen
-    regio_profielen: regio profielen
-    nationaal_profielen: nationaal profielen
-    internationaal_profielen: internationaal profielen
-    specifieke_applicaties: specifieke applicaties
-    elektrisch_vervoer: elektrisch vervoer
-    warmtepomp: warmtepomp
-    demand_response: demand response
-    markten_en_business_cases: markten en business cases
-    bestaande_marktrollen: bestaande marktrollen
-    nieuwe_marktrollen: nieuwe marktrollen
-    stakeholders: stakeholders
-    simulatie_prijsvorming: simulatie prijsvorming
-    overheidsmaatregelen_instelbaar: overheidsmaatregelen instelbaar
-    staat_van_het_model: staat van het model
-    framework: framework waarbij voor een specifieke vraag verder ontwikkeld moet worden
-    gereed_model: gereed model waarvoor parameters/data ingevuld hoeven worden
-    gebruik_van_het_model: gebruik van het model
-    hoe_lang_duurt_instellen_van_het_model: hoe lang duurt instellen van het model
+    infrastructuurberekeningen: Het model toont belastingen van de infrastructuur zoals loadflow en piekvraag
+    electriciteit_infrastructuur: Er wordt output gegeven over de belasting van en/of het transport over het elektriciteitsnetwerk
+    gas_infrastructuur: Er wordt output gegeven over de belasting van en/of het transport over het gasnetwerk
+    warmte_infrastructuur: Er wordt output gegeven over de belasting van en/of het transport over het warmtenetwerk
+    labelsprong_woning: De labelsprong van een woning kan worden getoond
+    import/export_van_energie: Import/Export van energie wordt getoond
+    hoeveelheid_duurzame_energieproductie: De hoeveelheid duurzame energieproductie wordt getoond
+    biofootprint: De biofootprint wordt getoond
+    visualisatie_output: Op welke wijze de output wordt gevisualiseerd
+    geografisch: Output wordt op een kaart (2D of 3D) geplot
+    tabellen: Output wordt in de vorm van tabellen getoond
+    grafieken: Output wordt in de vorm van tgrafieken getoond
+    systeemcomponenten: De onderstaande componenten maken deel uit van het model
+    productie: Opwek van elektriciteit, gas en warmte
+    centrale_groene_opwek: Centrale opwek duurzame elektriciteit
+    bij_meestook: Bij- of meestook van biomassa
+    biogas_opwek: Productie van biogas
+    centraal_wind: Centraal windpark
+    pv_zonnepark: Centraal PV zonnepark
+    centraal_grijs: Centrale grijze opwek
+    lokaal_groene_opwek: Lokale groene opwek
+    wko: WKO (warmte-kracht koppeling)
+    warmtepomp: Warmtepompen
+    restwarmte: Restwarmte (bijvoorbeel van industrie of centrale elektriciteitsproductie)
+    lokaal_biogas: Lokale biogas productie (vergisting of vergassing    )
+    collector: Zonnecollector (zonneboiler)
+    pv: Zon PV productie
+    lokaal_wind: Lokale windproductie
+    geothermie: Geothermie (elektriciteit of warmte)
+    lokaal_grijze_opwek: Lokale grijze opwek van elektriciteit
+    wkk: Warmte-kracht koppeling
+    micro_wkk: Micro-warmte-kracht koppeling
+    energiefuncties: Energiefuncties (zoals gebruikt in het Energierapport)
+    ruimteverwarming: Ruimteverwarming (lage temperatuur warmte)
+    vervoer: Vervoer (mobiliteit)
+    proceswarmte_industrie: Proceswarmte industrie (hoge temperatuur warmte)
+    elektriciteit: Elektriciteit
+    transport_en_distributienetten: Transport- en distributienetten 
+    elektriciteit: De volgende componenten van het elektriciteitsnetwerk worden gemodelleerd
+    laagspanning: Laagspanningsnetwerk
+    middenspanning: Middenspanningsnetwerk
+    hoogspanning: Hoogspanningsnetwerk
+    gas: De volgende componenten van het gasnetwerk worden gemodelleerd 
+    lage_druk: Lage drukvlakken
+    midden_druk: Midden drukvlakken
+    hoge_druk: Hoge drukvlakken
+    warmte: De volgende componenten van het warmtenetwerk worden gemodelleerd
+    lage_temperatuur: Lage temperatuurinfrastructuur
+    hoge_temperatuur: Hoge temperatuurinfrastructuur
+    net_inlaadbaar_opbouwbaar_in_het_model: Het netwerk is inlaadbaar/opbouwbaar in het model
+    net_benaderd_middels_standaard_of_kengetal: Het netwerk wordt benaderd middels een standaard of kengetal
+    mobiliteit: De volgende vormen van mobiliteit worden gemodelleerd
+    elektrisch_vervoer_mobiliteit: Elektrisch vervoer
+    flexibiliteitsdiensten: De volgende flexibiliteitsdiensten worden gemodelleerd
+    demand_response: Vraagsturing
+    opslag: De volgende opslagmethoden worden gemodelleerd
+    elektriciteits_opslag: Elektriciteitsopslag (power-to-power in bijvoorbeeld thuisbatterijen of EV accu's)
+    gas_opslag: Gasopslag (bijvoorbeeld actief bufferen in het gasnet)
+    warmte_opslag: Warmteopslag (bijvoorbeeld in buffervaten of in warmte-koude opslag)
+    conversietechnologieen: Er woren conversietechnologieën gemodelleerd zoals power-to-heat en power-to-gas
+    prijsmechanismen: Prijsmechanismen voor flexibiliteitsdiensten en opslag
+    co2_afvang: CO2-afvang (CCS)
+    energievraag: De volgende opties voor het beschrijven van de energievraag worden ondersteund
+    onderscheid_klantsegmenten: Meerdere klantsegmenten (bijvoorbeeld onderscheid tussen klein- en grootverbruikers)
+    verbruikspatroon: Verbruikspatroneb worden gemodelleerd of als input gebruikt met één of meerdere van de onderstaande tijdsresoluties
+    per_minuut: Per minuut
+    per_kwartier: Per kwartier
+    per_uur: Per uur
+    per_dag: Per dag
+    per_week: Per week
+    per_maand: Per maand
+    per_jaar: Per jaar
+    aggregatieniveau_vraagprofiel: Het aggregatieniveau van vraagprofielen
+    huishoudelijk_apparaat_profielen: Per huishoudelijk apparaat (bijvoorbeeld een stofzuiger of warmtepomp) worden profielen gebruikt
+    auto_profielen: Het model bevat profielen voor het gebruik van auto's
+    aansluiting: Profielen beschrijven alles achter de aansluiting als één geheel
+    wijk_profielen: Profielen beschrijven een wijk als één geheel
+    stad_profielen: Profielen beschrijven een stad als één geheel
+    regio_profielen: Profielen beschrijven een regio als één geheel
+    nationaal_profielen: Profielen beschrijven een land als één geheel
+    internationaal_profielen: Profielen beschrijven meerdere landen als één geheel
+    specifieke_applicaties: De volgende applicaties zijn opgenomen in het model
+    elektrisch_vervoer: Elektrisch vervoer
+    warmtepomp: Warmtepompen
+    demand_response: Vraagsturing
+    markten_en_business_cases: De volgende aspecten van markten en business cases zijn gemodelleerd
+    bestaande_marktrollen: Bestaande marktrollen (bijvoorbeeld Prosument/Consument, Netbeheerder, Leverancier, Producent, Overheid)
+    nieuwe_marktrollen: Nieuwe marktrollen (bijvoorbeeld Aggregator, Coöperatie)
+    stakeholders: Er worden meerdere stakeholders onderscheiden
+    simulatie_prijsvorming: Prijsvorming van commodities en diensten wordt gemodelleerd
+    overheidsmaatregelen_instelbaar: Het is mogelijk om overheidsmaatregelen in te stellen
+    staat_van_het_model: De mate waarin het model direct toepasbaar is
+    framework: Framework waarbij voor een specifieke vraag verder ontwikkeld moet worden
+    gereed_model: Gereed model waarvoor enkel parameters/data ingevuld hoeven worden
+    gebruik_van_het_model: Aspecten van het gebruik van het model
+    hoe_lang_duurt_instellen_van_het_model: Hoe lang duurt het instellen van het model?
     0_tot_halve_mandag: 0 tot 0.5 mandagen
     1_mandag: 1 mandag
     1_tot_10_mandagen: 1 tot 10 mandagen
-    benodigde_voorbereidingstijd: benodigde voorbereidingstijd voordat model gebruikt kan worden
+    benodigde_voorbereidingstijd: Wat is de benodigde voorbereidingstijd voordat het model gebruikt kan worden?
     0_uur: 0 uur
     1_uur: 1 uur
     1_tot_10_uur: 1 tot 10 uur
     10_tot_100_uur: 10 tot 100 uur
-    zelfstandig_bedienbaar: zelfstandig bedienbaar
-    bedienbaar_middels_expert: bedienbaar middels expert
-    verkrijgbaarheid_van_het_model: verkrijgbaarheid van het model
-    dienst/expertmodel: dienst/expertmodel
-    product: product
-    openbaar: openbaar
-    informatie_over_model: informatie over model
-    documentatie_over_model: documentatie over model
-    voorbeeldcases: voorbeeldcases
-    website_met_uitleg: website met uitleg
-    centraal_grijze_opwek: centraal grijze opwek
-    miscellaneous: overig
-    functionaliteit: functionaliteit
+    zelfstandig_bedienbaar: Het model kan door de gebruiker zelfstandig bediend worden
+    bedienbaar_middels_expert: Het model moet door één of meerdere experts worden bediend
+    verkrijgbaarheid_van_het_model: Verkrijgbaarheid van het model
+    dienst_expertmodel: Het model wordt aangeboden als dienst waarbij één of meerdere experts moeten worden ingehuurd
+    product: Het model wordt als commercieel product aangeboden
+    openbaar: Het model is openbaar en gratis te gebruiken
+    informatie_over_model: Welke informatie is er over het model beschikbaar?
+    documentatie_over_model: Er is documentatie over model te vinden
+    voorbeeldcases: Voorbeeldcases kunnen worden bekeken door de gebruiker
+    website_met_uitleg: Er is een website met uitleg
+    centraal_grijze_opwek: Centrale grijze opwek
+    miscellaneous: Overige output
+    functionaliteit: Functionaliteit voor het specificeren van energie-infrastructuur
