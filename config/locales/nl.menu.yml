@@ -45,7 +45,7 @@ nl:
   systeemcomponenten: systeemcomponenten
   productie: productie
   centrale_groene_opwek: centrale groene opwek
-  bij_meestook: bij meestook
+  bij_meestook: bij-/meestook
   biogas_opwek: biogas opwek
   centraal_wind: centraal wind
   pv_zonnepark: pv zonnepark
@@ -78,7 +78,7 @@ nl:
   hoge_druk: hoge druk
   warmte: warmte
   lage_temperatuur: lage temperatuur
-  hoge_temperatur: hoge temperatur
+  hoge_temperatuur: hoge temperatuur
   net_inlaadbaar_opbouwbaar_in_het_model: net inlaadbaar opbouwbaar in het model
   net_benaderd_middels_standaard_of_kengetal: net benaderd middels standaard of kengetal
   mobiliteit: mobiliteit
@@ -137,7 +137,7 @@ nl:
   zelfstandig_bedienbaar: zelfstandig bedienbaar
   bedienbaar_middels_expert: bedienbaar middels expert
   verkrijgbaarheid_van_het_model: verkrijgbaarheid van het model
-  dienst/expertmodel: dienst/expertmodel
+  dienst_expertmodel: dienst/expertmodel
   product: product
   openbaar: openbaar
   informatie_over_model: informatie over model
