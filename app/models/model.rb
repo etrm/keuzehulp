@@ -2,12 +2,13 @@ require 'yaml'
 
 class Model
 
-  attr_reader :key, :properties, :name
+  attr_reader :key, :properties, :name, :leaflet
 
   def initialize(key, attr)
     @key        = key
     @properties = attr['properties']
     @name       = attr['name']
+    @leaflet    = attr['leaflet']
   end
 
   def as_json

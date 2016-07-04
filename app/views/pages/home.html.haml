@@ -16,5 +16,9 @@
       %th score
     - Model.all.each do |model|
       %tr{id: model.key}
-        %td= t model.key
+        %td
+          - if model.leaflet
+            = link_to(t(model.key), model.leaflet)
+          - else
+            = t model.key
         %td.score 0 %
