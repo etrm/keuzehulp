@@ -19,6 +19,7 @@ group :development do
   gem 'spring'
   gem 'pry-rails'
   gem 'better_errors'
+  gem 'binding_of_caller'
 
   gem 'capistrano',             '~> 3.0',   require: false
   gem 'capistrano-rbenv',       '~> 2.0',   require: false
