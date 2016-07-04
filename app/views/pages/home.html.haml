@@ -1,22 +1,23 @@
-#input
-  %h4
-    Selecteer welke onderdelen je nodig hebt:
-    %a#wis{href: '#'} wis selectie
-  #menu
-    - draw_menu(Menu.new.hash)
+#container
+  #input
+    %h4
+      Selecteer welke onderdelen je nodig hebt:
+      %a#wis{href: '#'} wis selectie
+    #menu
+      - draw_menu(Menu.new.hash)
 
-#output
-  %h4 De volgende modellen voldoen het beste aan jouw wensen:
+  #output
+    %h4 De volgende modellen voldoen het beste aan jouw wensen:
 
-  %table.table#output_table
-    %tr
-      %th model
-      %th score
-    - Model.all.each do |model|
-      %tr{id: model.key}
-        %td
-          - if model.leaflet
-            = link_to(t(model.key), model.leaflet)
-          - else
-            = t model.key
-        %td.score 0 %
+    %table.table#output_table
+      %tr
+        %th model
+        %th score
+      - Model.all.each do |model|
+        %tr{id: model.key}
+          %td
+            - if model.leaflet
+              = link_to(t(model.key), model.leaflet)
+            - else
+              = t model.key
+          %td.score 0 %

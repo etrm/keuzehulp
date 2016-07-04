@@ -18,7 +18,7 @@ module MenuHelper
         enum.each do |key|
           haml_tag :li do
             haml_tag :input, type: :checkbox, id: key, name: key
-            haml_tag :label, for: key do
+            haml_tag :label, for: key, title: t("info.#{ key }"), class: 'tooltip ' do
               haml_concat t key
             end
           end
