@@ -1,4 +1,5 @@
 name: opera
+leaflet: http://nbn-assets.netbeheernederland.nl/p/32768//files/OPERA_Leaflet_A.pdf
 properties:
   - regio_schaal
   - nationaal_schaal

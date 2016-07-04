@@ -1,4 +1,5 @@
 name: warmtevraagprofielen
+leaflet: http://nbn-assets.netbeheernederland.nl/p/32768//files/WARMTEVRAAGPROFIELEN_Leaflet_A.pdf
 properties:
   - woning_schaal
   - wijk_schaal

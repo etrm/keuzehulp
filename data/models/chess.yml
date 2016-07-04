@@ -1,4 +1,5 @@
 name: chess
+leaflet: http://nbn-assets.netbeheernederland.nl/p/32768//files/CHESS-Leaflet_A.pdf
 properties:
   - woning_schaal
   - wijk_schaal

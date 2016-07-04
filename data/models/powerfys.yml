@@ -1,4 +1,5 @@
 name: powerfys
+leaflet: http://nbn-assets.netbeheernederland.nl/p/32768//files/POWERFYS_Leaflet_A.pdf
 properties:
   - nationaal_schaal
   - internationaal_schaal

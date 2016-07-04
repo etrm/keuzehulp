@@ -1,4 +1,5 @@
 name: etmoses
+leaflet: http://nbn-assets.netbeheernederland.nl/p/32768//files/ETMoses_Leaflet_A.pdf
 properties:
   - wijk_schaal
   - stad_schaal

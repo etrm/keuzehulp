@@ -1,4 +1,5 @@
 name: pv opslag
+leaflet: http://nbn-assets.netbeheernederland.nl/p/32768//files/PV%20en%20OPSLAG_IN_WONING_Leaflet_A.pdf
 properties:
   - woning_schaal
   - visie_fase

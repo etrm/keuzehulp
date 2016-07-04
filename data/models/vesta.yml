@@ -1,4 +1,5 @@
 name: vesta
+leaflet: http://nbn-assets.netbeheernederland.nl/p/32768//files/VESTA-Leaflet_A.pdf
 properties:
   - regio_schaal
   - nationaal_schaal

@@ -1,4 +1,5 @@
 name: pico
+leaflet: http://nbn-assets.netbeheernederland.nl/p/32768//files/PICO_Leaflet_A.pdf
 properties:
   - co2_effecten
   - energievraag
