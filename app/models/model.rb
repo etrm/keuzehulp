@@ -27,7 +27,7 @@ class Model
       key = path.split('.').first.split('/').last
       models << self.new(key, YAML.load_file(path))
     end
-    models
+    models.sort_by(&:name)
   end
 
 end
