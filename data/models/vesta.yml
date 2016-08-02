@@ -1,9 +1,11 @@
 name: vesta
 leaflet: http://nbn-assets.netbeheernederland.nl/p/32768//files/VESTA-Leaflet_A.pdf
 properties:
+  - stad_schaal
   - regio_schaal
   - nationaal_schaal
   - visie_fase
+  - masterplan_fase
   - capex_opex
   - co2_effecten
   - energievraag
