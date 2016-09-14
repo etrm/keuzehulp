@@ -1,32 +1,37 @@
 name: etm
 leaflet: http://nbn-assets.netbeheernederland.nl/p/32768//files/ENERGIETRANSITIEMODEL_Leaflet_A.pdf
 properties:
+  - wijk_schaal
+  - stad_schaal
   - regio_schaal
   - nationaal_schaal
-  - internationaal_schaal
   - visie_fase
   - masterplan_fase
+  - stedenbouwkundig_fase
+  - inrichting_fase
   - capex_opex
   - prijsvorming_van_commodity
   - co2_effecten
-  - werkgelegenheid
   - energievraag
   - energieproductie
   - zichtjaar
-  - tussenjaren
+  - tijdsresolutie_uitkomst_kwartier
   - tijdsresolutie_uitkomst_uur
+  - tijdsresolutie_uitkomst_dag
+  - tijdsresolutie_uitkomst_week
+  - tijdsresolutie_uitkomst_maand
   - tijdsresolutie_uitkomst_jaar
   - electriciteit_infrastructuur
-  - import/export_van_energie
+  - gas_infrastructuur
+  - warmte_infrastructuur
+  - labelsprong_woning
   - hoeveelheid_duurzame_energieproductie
-  - biofootprint
+  - geografisch
   - tabellen
   - grafieken
-  - bij_meestook
   - biogas_opwek
   - centraal_wind
   - pv_zonnepark
-  - centraal_grijs
   - wko
   - warmtepomp
   - restwarmte
@@ -39,30 +44,60 @@ properties:
   - micro_wkk
   - ruimteverwarming
   - vervoer
-  - proceswarmte_industrie
   - elektriciteit
   - laagspanning
   - middenspanning
   - hoogspanning
-  - net_benaderd_middels_standaard_of_kengetal
+  - lage_druk
+  - midden_druk
+  - hoge_druk
+  - lage_temperatuur
+  - hoge_temperatur
+  - net_inlaadbaar_opbouwbaar_in_het_model
   - elektrisch_vervoer_mobiliteit
   - demand_response
   - elektriciteits_opslag
   - gas_opslag
   - warmte_opslag
   - conversietechnologieen
-  - co2_afvang
-  - per_uur
+  - prijsmechanismen
+  - onderscheid_klantsegmenten
+  - per_kwartier
   - per_jaar
+  - huishoudelijk_apparaat_profielen
+  - auto_profielen
+  - aansluiting
+  - wijk_profielen
+  - stad_profielen
+  - regio_profielen
   - nationaal_profielen
   - elektrisch_vervoer
-  - warmtepomp
+  - bestaande_marktrollen
+  - nieuwe_marktrollen
+  - stakeholders
   - simulatie_prijsvorming
+  - overheidsmaatregelen_instelbaar
   - gereed_model
   - 0_tot_halve_mandag
+  - 1_mandag
   - 0_uur
+  - 1_uur
+  - 1_tot_10_uur
+  - 10_tot_100_uur
   - zelfstandig_bedienbaar
+  - bedienbaar_middels_expert
   - openbaar
   - documentatie_over_model
   - voorbeeldcases
   - website_met_uitleg
+  - internationaal_schaal
+  - werkgelegenheid
+  - tussenjaren
+  - import/export_van_energie
+  - biofootprint
+  - bij_meestook
+  - centraal_grijs
+  - proceswarmte_industrie
+  - net_benaderd_middels_standaard_of_kengetal
+  - co2_afvang
+  - per_uur
