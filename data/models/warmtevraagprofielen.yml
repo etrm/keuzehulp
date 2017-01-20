@@ -30,7 +30,7 @@ properties:
   - biogas_opwek
   - centraal_wind
   - centraal_grijs
-  - warmtepomp
+  - warmtepomp_groen
   - lokaal_biogas
   - pv
   - lokaal_wind
@@ -64,7 +64,7 @@ properties:
   - nationaal_profielen
   - internationaal_profielen
   - elektrisch_vervoer
-  - warmtepomp
+  - warmtepomp_vraag
   - demand_response
   - gereed_model
   - 0_tot_halve_mandag

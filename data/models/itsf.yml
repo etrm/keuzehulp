@@ -24,7 +24,7 @@ properties:
   - pv_zonnepark
   - centraal_grijs
   - wko
-  - warmtepomp
+  - warmtepomp_groen
   - pv
   - lokaal_wind
   - wkk
@@ -49,7 +49,7 @@ properties:
   - stad_profielen
   - regio_profielen
   - elektrisch_vervoer
-  - warmtepomp
+  - warmtepomp_vraag
   - demand_response
   - bestaande_marktrollen
   - nieuwe_marktrollen

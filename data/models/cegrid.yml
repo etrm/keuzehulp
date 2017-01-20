@@ -20,7 +20,7 @@ properties:
   - centraal_wind
   - pv_zonnepark
   - centraal_grijs
-  - warmtepomp
+  - warmtepomp_groen
   - pv
   - lokaal_wind
   - ruimteverwarming
@@ -42,7 +42,7 @@ properties:
   - nationaal_profielen
   - internationaal_profielen
   - elektrisch_vervoer
-  - warmtepomp
+  - warmtepomp_vraag
   - demand_response
   - bestaande_marktrollen
   - gereed_model

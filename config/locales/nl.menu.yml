@@ -52,7 +52,7 @@ nl:
   centraal_grijs: centraal grijs
   lokaal_groene_opwek: lokaal groene opwek
   wko: wko
-  warmtepomp: warmtepomp
+  warmtepomp_groen: warmtepomp
   restwarmte: restwarmte
   lokaal_biogas: lokaal biogas
   collector: collector
@@ -113,7 +113,7 @@ nl:
   internationaal_profielen: internationaal profielen
   specifieke_applicaties: specifieke applicaties
   elektrisch_vervoer: elektrisch vervoer
-  warmtepomp: warmtepomp
+  warmtepomp_vraag: warmtepomp
   demand_response: demand response
   markten_en_business_cases: markten en business cases
   bestaande_marktrollen: bestaande marktrollen

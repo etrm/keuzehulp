@@ -54,7 +54,7 @@ systeemcomponenten:
       - centraal_grijs
     lokaal_groene_opwek:
       - wko
-      - warmtepomp
+      - warmtepomp_groen
       - restwarmte
       - lokaal_biogas
       - collector
@@ -116,7 +116,7 @@ systeemcomponenten:
     - internationaal_profielen
   specifieke_applicaties:
     - elektrisch_vervoer
-    - warmtepomp
+    - warmtepomp_vraag
     - demand_response
 markten_en_business_cases:
   - bestaande_marktrollen
