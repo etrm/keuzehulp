@@ -20,7 +20,7 @@ properties:
   - tabellen
   - grafieken
   - wko
-  - warmtepomp
+  - warmtepomp_groen
   - restwarmte
   - lokaal_biogas
   - collector
@@ -41,7 +41,7 @@ properties:
   - per_jaar
   - huishoudelijk_apparaat_profielen
   - wijk_profielen
-  - warmtepomp
+  - warmtepomp_vraag
   - bestaande_marktrollen
   - nieuwe_marktrollen
   - stakeholders

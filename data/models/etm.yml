@@ -33,7 +33,7 @@ properties:
   - centraal_wind
   - pv_zonnepark
   - wko
-  - warmtepomp
+  - warmtepomp_groen
   - restwarmte
   - lokaal_biogas
   - collector
@@ -55,6 +55,7 @@ properties:
   - hoge_temperatur
   - net_inlaadbaar_opbouwbaar_in_het_model
   - elektrisch_vervoer_mobiliteit
+  - warmtepomp_vraag
   - demand_response
   - elektriciteits_opslag
   - gas_opslag

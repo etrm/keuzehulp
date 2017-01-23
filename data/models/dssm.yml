@@ -26,7 +26,7 @@ properties:
   - pv_zonnepark
   - centraal_grijs
   - wko
-  - warmtepomp
+  - warmtepomp_groen
   - lokaal_biogas
   - pv
   - lokaal_wind
@@ -52,7 +52,7 @@ properties:
   - aansluiting
   - nationaal_profielen
   - elektrisch_vervoer
-  - warmtepomp
+  - warmtepomp_vraag
   - demand_response
   - stakeholders
   - simulatie_prijsvorming

@@ -35,7 +35,7 @@ properties:
   - pv_zonnepark
   - centraal_grijs
   - wko
-  - warmtepomp
+  - warmtepomp_groen
   - restwarmte
   - lokaal_biogas
   - collector
@@ -77,7 +77,7 @@ properties:
   - regio_profielen
   - nationaal_profielen
   - elektrisch_vervoer
-  - warmtepomp
+  - warmtepomp_vraag
   - demand_response
   - bestaande_marktrollen
   - nieuwe_marktrollen

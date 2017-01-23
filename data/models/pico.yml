@@ -10,7 +10,7 @@ properties:
   - geografisch
   - centraal_wind
   - wko
-  - warmtepomp
+  - warmtepomp_groen
   - restwarmte
   - pv
   - lokaal_wind
@@ -29,7 +29,7 @@ properties:
   - stad_profielen
   - regio_profielen
   - nationaal_profielen
-  - warmtepomp
+  - warmtepomp_vraag
   - framework
   - 0_tot_halve_mandag
   - 0_uur

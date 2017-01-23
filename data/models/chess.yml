@@ -30,7 +30,7 @@ properties:
   - pv_zonnepark
   - centraal_grijs
   - wko
-  - warmtepomp
+  - warmtepomp_groen
   - restwarmte
   - collector
   - pv
@@ -56,7 +56,7 @@ properties:
   - aansluiting
   - wijk_profielen
   - stad_profielen
-  - warmtepomp
+  - warmtepomp_vraag
   - demand_response
   - framework
   - gereed_model
