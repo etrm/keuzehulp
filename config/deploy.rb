@@ -1,5 +1,5 @@
 # config valid only for Capistrano 3.1
-lock '3.5.0'
+lock '3.7.1'
 
 set :application, 'keuzehulp'
 set :repo_url, 'git@github.com:quintel/keuzehulp.git'
