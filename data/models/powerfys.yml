@@ -1,6 +1,7 @@
 name: powerfys
 leaflet: http://nbn-assets.netbeheernederland.nl/p/32768//files/POWERFYS_Leaflet_A.pdf
 properties:
+  - regio_schaal
   - nationaal_schaal
   - internationaal_schaal
   - visie_fase
@@ -9,26 +10,24 @@ properties:
   - co2_effecten
   - energievraag
   - energieproductie
-  - zichtjaar
   - tijdsresolutie_uitkomst_uur
   - tijdsresolutie_uitkomst_dag
   - tijdsresolutie_uitkomst_week
   - tijdsresolutie_uitkomst_maand
   - tijdsresolutie_uitkomst_jaar
   - electriciteit_infrastructuur
+  - warmte_infrastructuur
   - import/export_van_energie
   - hoeveelheid_duurzame_energieproductie
-  - geografisch
   - tabellen
   - grafieken
   - bij_meestook
+  - biogas_opwek
   - centraal_wind
   - pv_zonnepark
   - centraal_grijs
   - warmtepomp_groen
   - restwarmte
-  - pv
-  - lokaal_wind
   - wkk
   - micro_wkk
   - ruimteverwarming
@@ -39,19 +38,20 @@ properties:
   - hoogspanning
   - lage_temperatuur
   - hoge_temperatur
-  - net_inlaadbaar_opbouwbaar_in_het_model
-  - net_benaderd_middels_standaard_of_kengetal
   - elektrisch_vervoer_mobiliteit
   - demand_response
   - elektriciteits_opslag
   - gas_opslag
   - warmte_opslag
   - conversietechnologieen
+  - prijsmechanismen
   - per_uur
   - per_dag
   - per_week
   - per_maand
   - per_jaar
+  - wijk_profielen
+  - stad_profielen
   - regio_profielen
   - nationaal_profielen
   - internationaal_profielen
@@ -60,9 +60,8 @@ properties:
   - demand_response
   - bestaande_marktrollen
   - simulatie_prijsvorming
-  - gereed_model
   - 1_mandag
-  - 1_uur
+  - 1_tot_10_mandagen
+  - 1_tot_10_uur
   - bedienbaar_middels_expert
-  - documentatie_over_model
-  - voorbeeldcases
+  - dienst/expertmodel
