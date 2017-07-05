@@ -1,0 +1,34 @@
+name: win3d
+properties:
+  - wijk_schaal
+  - stad_schaal
+  - regio_schaal
+  - visie_fase
+  - masterplan_fase
+  - stedenbouwkundig_fase
+  - inrichting_fase
+  - energieproductie
+  - zichtjaar
+  - hoeveelheid_duurzame_energieproductie
+  - ruimtelijke_weergave_3D
+  - biogas_wkk
+  - centraal_wind
+  - pv_zonnepark
+  - lokaal_biogas
+  - pv
+  - lokaal_wind
+  - elektriciteit
+  - hoogspanning
+  - stakeholders
+  - overheidsmaatregelen_instelbaar
+  - 0_tot_halve_mandag
+  - 1_mandag
+  - 1_tot_10_mandagen
+  - 0_uur
+  - 1_uur
+  - 1_tot_10_uur
+  - dienst/expertmodel
+  - product
+  - documentatie_over_model
+  - voorbeeldcases
+  - website_met_uitleg
