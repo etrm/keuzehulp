@@ -40,14 +40,15 @@ output:
     - hoeveelheid_duurzame_energieproductie
     - biofootprint
 visualisatie_output:
-  - geografisch
+  - ruimtelijke_weergave_2D
+  - ruimtelijke_weergave_3D
   - tabellen
   - grafieken
 systeemcomponenten:
   productie:
     centrale_groene_opwek:
       - bij_meestook
-      - biogas_opwek
+      - biogas_wkk
       - centraal_wind
       - pv_zonnepark
     centraal_grijze_opwek:
@@ -143,6 +144,8 @@ verkrijgbaarheid_van_het_model:
   - dienst/expertmodel
   - product
   - openbaar
+  - gratis
+  - open_source
 informatie_over_model:
   - documentatie_over_model
   - voorbeeldcases
