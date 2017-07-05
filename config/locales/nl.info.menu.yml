@@ -40,14 +40,15 @@ nl:
     hoeveelheid_duurzame_energieproductie: De hoeveelheid duurzame energieproductie wordt getoond
     biofootprint: De biofootprint wordt getoond
     visualisatie_output: Op welke wijze de output wordt gevisualiseerd
-    geografisch: Output wordt op een kaart (2D of 3D) geplot
+    ruimtelijke_weergave_2D: Output wordt op een 2D kaart gevisualiseerd
+    ruimtelijke_weergave_3D: Output wordt in een 3D omgeving gevisualiseerd
     tabellen: Output wordt in de vorm van tabellen getoond
     grafieken: Output wordt in de vorm van tgrafieken getoond
     systeemcomponenten: De onderstaande componenten maken deel uit van het model
     productie: Opwek van elektriciteit, gas en warmte
     centrale_groene_opwek: Centrale opwek duurzame elektriciteit
     bij_meestook: Bij- of meestook van biomassa
-    biogas_opwek: Productie van biogas
+    biogas_wkk: Biogas WKK
     centraal_wind: Centraal windpark
     pv_zonnepark: Centraal PV zonnepark
     centraal_grijs: Centrale grijze opwek
@@ -141,6 +142,8 @@ nl:
     dienst_expertmodel: Het model wordt aangeboden als dienst waarbij één of meerdere experts moeten worden ingehuurd
     product: Het model wordt als commercieel product aangeboden
     openbaar: Het model is openbaar en gratis te gebruiken
+    gratis: Het model is gratis te verkrijgen
+    open_source: De rekenmethoden en data van het model zijn open source 
     informatie_over_model: Welke informatie is er over het model beschikbaar?
     documentatie_over_model: Er is documentatie over model te vinden
     voorbeeldcases: Voorbeeldcases kunnen worden bekeken door de gebruiker

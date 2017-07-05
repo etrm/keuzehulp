@@ -39,14 +39,15 @@ nl:
   hoeveelheid_duurzame_energieproductie: hoeveelheid duurzame energieproductie
   biofootprint: biofootprint
   visualisatie_output: visualisatie output
-  geografisch: geografisch
+  ruimtelijke_weergave_2D: 2D ruimtelijke weergave
+  ruimtelijke_weergave_3D: 3D ruimtelijke weergave
   tabellen: tabellen
   grafieken: grafieken
   systeemcomponenten: systeemcomponenten
   productie: productie
   centrale_groene_opwek: centrale groene opwek
   bij_meestook: bij-/meestook
-  biogas_opwek: biogas opwek
+  biogas_wkk: biogas wkk
   centraal_wind: centraal wind
   pv_zonnepark: pv zonnepark
   centraal_grijs: centraal grijs
@@ -140,6 +141,8 @@ nl:
   dienst_expertmodel: dienst/expertmodel
   product: product
   openbaar: openbaar
+  gratis: gratis
+  open_source: open source 
   informatie_over_model: informatie over model
   documentatie_over_model: documentatie over model
   voorbeeldcases: voorbeeldcases

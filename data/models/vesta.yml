@@ -1,6 +1,6 @@
 name: vesta
-leaflet: http://nbn-assets.netbeheernederland.nl/p/32768//files/VESTA-Leaflet_A.pdf
 properties:
+  - wijk_schaal
   - stad_schaal
   - regio_schaal
   - nationaal_schaal
@@ -18,10 +18,11 @@ properties:
   - warmte_infrastructuur
   - labelsprong_woning
   - hoeveelheid_duurzame_energieproductie
-  - geografisch
+  - ruimtelijke_weergave_2D
   - tabellen
   - grafieken
-  - biogas_opwek
+  - bij_meestook
+  - biogas_wkk
   - centraal_grijs
   - wko
   - warmtepomp_groen
@@ -29,23 +30,39 @@ properties:
   - lokaal_biogas
   - collector
   - pv
-  - geothermie
   - wkk
   - micro_wkk
   - ruimteverwarming
   - elektriciteit
+  - hoogspanning
+  - hoge_druk
+  - lage_temperatuur
+  - hoge_temperatur
+  - warmte_opslag
   - per_jaar
+  - huishoudelijk_apparaat_profielen
   - aansluiting
   - wijk_profielen
   - stad_profielen
   - regio_profielen
   - nationaal_profielen
   - warmtepomp_vraag
+  - bestaande_marktrollen
+  - nieuwe_marktrollen
+  - stakeholders
   - overheidsmaatregelen_instelbaar
-  - framework
   - gereed_model
+  - 0_tot_halve_mandag
+  - 1_mandag
   - 1_tot_10_mandagen
   - 10_tot_100_uur
+  - zelfstandig_bedienbaar
+  - bedienbaar_middels_expert
   - dienst/expertmodel
+  - product
+  - openbaar
+  - gratis
+  - open_source
   - documentatie_over_model
+  - voorbeeldcases
   - website_met_uitleg

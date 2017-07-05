@@ -1,5 +1,4 @@
 name: dido
-leaflet: http://nbn-assets.netbeheernederland.nl/p/32768//files/DIDO_Leaflet_A.pdf
 properties:
   - wijk_schaal
   - stad_schaal
@@ -27,10 +26,9 @@ properties:
   - warmte_infrastructuur
   - import/export_van_energie
   - hoeveelheid_duurzame_energieproductie
-  - geografisch
   - tabellen
   - grafieken
-  - biogas_opwek
+  - biogas_wkk
   - centraal_wind
   - pv_zonnepark
   - centraal_grijs
