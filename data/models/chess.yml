@@ -1,5 +1,4 @@
 name: chess
-leaflet: http://nbn-assets.netbeheernederland.nl/p/32768//files/CHESS-Leaflet_A.pdf
 properties:
   - woning_schaal
   - wijk_schaal
@@ -23,7 +22,7 @@ properties:
   - labelsprong_woning
   - import/export_van_energie
   - hoeveelheid_duurzame_energieproductie
-  - geografisch
+  - ruimtelijke_weergave_2D
   - grafieken
   - bij_meestook
   - centraal_wind
@@ -56,11 +55,16 @@ properties:
   - aansluiting
   - wijk_profielen
   - stad_profielen
+  - regio_profielen
   - warmtepomp_vraag
   - demand_response
+  - nieuwe_marktrollen
+  - stakeholders
+  - simulatie_prijsvorming
   - framework
   - gereed_model
-  - 1_tot_10_mandagen
+  - 1_mandag
   - 1_tot_10_uur
   - bedienbaar_middels_expert
   - dienst/expertmodel
+  - documentatie_over_model

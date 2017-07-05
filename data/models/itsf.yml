@@ -1,5 +1,4 @@
 name: itsf
-leaflet: http://nbn-assets.netbeheernederland.nl/p/32768//files/ITSF_Leaflet_A.pdf
 properties:
   - woning_schaal
   - wijk_schaal
@@ -16,7 +15,7 @@ properties:
   - tijdsresolutie_uitkomst_uur
   - electriciteit_infrastructuur
   - hoeveelheid_duurzame_energieproductie
-  - geografisch
+  - ruimtelijke_weergave_2D
   - tabellen
   - grafieken
   - bij_meestook

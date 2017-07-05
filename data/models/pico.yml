@@ -1,5 +1,4 @@
 name: pico
-leaflet: http://nbn-assets.netbeheernederland.nl/p/32768//files/PICO_Leaflet_A.pdf
 properties:
   - co2_effecten
   - energievraag
@@ -7,7 +6,7 @@ properties:
   - tijdsresolutie_uitkomst_jaar
   - labelsprong_woning
   - hoeveelheid_duurzame_energieproductie
-  - geografisch
+  - ruimtelijke_weergave_2D
   - centraal_wind
   - wko
   - warmtepomp_groen

@@ -1,5 +1,4 @@
 name: etm
-leaflet: http://nbn-assets.netbeheernederland.nl/p/32768//files/ENERGIETRANSITIEMODEL_Leaflet_A.pdf
 properties:
   - wijk_schaal
   - stad_schaal
@@ -31,11 +30,10 @@ properties:
   - import/export_van_energie
   - hoeveelheid_duurzame_energieproductie
   - biofootprint
-  - geografisch
   - tabellen
   - grafieken
   - bij_meestook
-  - biogas_opwek
+  - biogas_wkk
   - centraal_wind
   - pv_zonnepark
   - centraal_grijs
@@ -98,6 +96,8 @@ properties:
   - 10_tot_100_uur
   - zelfstandig_bedienbaar
   - openbaar
+  - gratis
+  - open_source
   - documentatie_over_model
   - voorbeeldcases
   - website_met_uitleg

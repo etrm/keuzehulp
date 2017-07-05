@@ -1,5 +1,4 @@
 name: gebiedsmodel
-leaflet: http://nbn-assets.netbeheernederland.nl/p/32768//files/GEBIEDSMODEL_Leaflet_A.pdf
 properties:
   - wijk_schaal
   - stad_schaal
@@ -20,7 +19,7 @@ properties:
   - tabellen
   - grafieken
   - bij_meestook
-  - biogas_opwek
+  - biogas_wkk
   - centraal_wind
   - pv_zonnepark
   - centraal_grijs
