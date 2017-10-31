@@ -2,7 +2,6 @@ name: woonconnect
 properties:
   - woning_schaal
   - wijk_schaal
-  - stad_schaal
   - inrichting_fase
   - capex_opex
   - co2_effecten
@@ -15,6 +14,7 @@ properties:
   - labelsprong_woning
   - import/export_van_energie
   - hoeveelheid_duurzame_energieproductie
+  - ruimtelijke_weergave_3D
   - tabellen
   - grafieken
   - wko
@@ -24,7 +24,6 @@ properties:
   - collector
   - pv
   - lokaal_wind
-  - geothermie
   - wkk
   - micro_wkk
   - ruimteverwarming
@@ -33,8 +32,6 @@ properties:
   - huishoudelijk_apparaat_profielen
   - warmtepomp_vraag
   - bestaande_marktrollen
-  - nieuwe_marktrollen
-  - stakeholders
   - gereed_model
   - 0_tot_halve_mandag
   - 1_tot_10_uur
