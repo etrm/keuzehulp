@@ -102,10 +102,26 @@
         }
     }
 
+    function trackClick() {
+        var name;
+
+        if (ga) {
+            name = $(this).attr('name');
+
+            ga('send', {
+                hitType:       'event',
+                eventCategory: 'filter',
+                eventAction:   name,
+                eventLabel:    'Filter'
+            });
+        }
+    }
+
     function updateAll() {
         updateScores();
         sortTable();
         renderDeselectAll();
+        trackClick.call(this);
     }
 
     $(document).ready(function () {
