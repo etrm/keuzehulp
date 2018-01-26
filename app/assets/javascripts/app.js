@@ -103,17 +103,8 @@
     }
 
     function trackClick() {
-        var name;
-
         if (ga) {
-            name = $(this).attr('name');
-
-            ga('send', {
-                hitType:       'event',
-                eventCategory: 'filter',
-                eventAction:   name,
-                eventLabel:    'Filter'
-            });
+            ga('send', 'event', 'filter', $(this).attr('name'), 'Filter');
         }
     }
 
