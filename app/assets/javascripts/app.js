@@ -103,7 +103,7 @@
     }
 
     function trackClick() {
-        if (ga) {
+        if (ga && ga.loaded) {
             ga('send', 'event', 'filter', $(this).attr('name'), 'Filter');
         }
     }
