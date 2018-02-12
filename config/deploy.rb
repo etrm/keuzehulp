@@ -2,7 +2,7 @@
 lock '3.10.1'
 
 set :application, 'keuzehulp'
-set :repo_url, 'git@github.com:quintel/keuzehulp.git'
+set :repo_url, 'https://github.com/quintel/keuzehulp.git'
 
 # Set up rbenv
 set :rbenv_type, :user
