@@ -1,7 +1,6 @@
-require 'yaml'
+# frozen_string_literal: true
 
 class Model
-
   attr_reader :key, :properties, :name, :leaflet
 
   def initialize(key, attr)
@@ -22,12 +21,8 @@ class Model
   end
 
   def self.all
-    models = []
-    Dir.glob(Rails.root.join('data/models/*.yml')) do |path|
-      key = path.split('.').first.split('/').last
-      models << self.new(key, YAML.load_file(path))
-    end
-    models.sort_by(&:name)
+    Pathname.glob(Rails.root.join('data/models/*.yml'))
+      .map { |path| new(path.basename('.yml').to_s, YAML.load_file(path)) }
+      .sort_by(&:name)
   end
-
 end
