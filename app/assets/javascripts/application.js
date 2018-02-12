@@ -14,5 +14,5 @@
 //= require jquery_ujs
 //= require jquery.sticky.js
 //= require turbolinks
-//= require jquery.tooltipster.min.js
+//= require tooltipster.bundle.js
 //= require_tree .

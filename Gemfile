@@ -1,19 +1,19 @@
+ruby '2.4.2'
 source 'https://rubygems.org'
 
-gem 'rails',        '~> 4.2.6'
+gem 'rails',        '~> 5.1'
 gem 'haml'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder',     '~> 2.0'
 gem 'sdoc',         '~> 0.4.0', group: :doc
-gem 'tooltipster-rails'
 
 group :assets do
-  gem 'sass-rails',   '~> 5.0'
+  gem 'sass-rails'
   gem 'therubyracer', platforms: :ruby
   gem 'execjs'
   gem 'uglifier'
-  gem 'coffee-rails', '~> 4.1.0'
+  gem 'coffee-rails'
 end
 
 group :development do
