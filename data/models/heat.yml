@@ -1,4 +1,4 @@
-- leaflet: https://www.netbeheernederland.nl/_upload/Files/Rekenmodellen_21_74fcb5b268.PDF
+leaflet: https://www.netbeheernederland.nl/_upload/Files/Rekenmodellen_21_74fcb5b268.PDF
 name: heat
 properties:
   - wijk_schaal
