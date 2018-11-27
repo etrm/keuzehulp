@@ -1,4 +1,4 @@
-- leaflet: https://www.netbeheernederland.nl/_upload/Files/Rekenmodellen_21_0db6cf249e.pdf
+leaflet: https://www.netbeheernederland.nl/_upload/Files/Rekenmodellen_21_0db6cf249e.pdf
 name: warmtevraagprofielen
 properties:
   - woning_schaal
