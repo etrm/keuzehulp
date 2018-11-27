@@ -1,24 +1,23 @@
-- leaflet: https://www.netbeheernederland.nl/_upload/Files/Rekenmodellen_21_2b9d3fa8e4.pdf
-name: opera
+- leaflet: https://www.netbeheernederland.nl/_upload/Files/Rekenmodellen_21_c769f55771.PDF
+name: energie transitie atlas
 properties:
+  - wijk_schaal
+  - stad_schaal
   - regio_schaal
-  - nationaal_schaal
   - visie_fase
+  - masterplan_fase
+  - stedenbouwkundig_fase
   - capex_opex
-  - co2_effecten
   - energievraag
   - energieproductie
   - zichtjaar
-  - tijdsresolutie_uitkomst_uur
-  - tijdsresolutie_uitkomst_dag
-  - tijdsresolutie_uitkomst_week
-  - tijdsresolutie_uitkomst_maand
+  - tussenjaren
   - tijdsresolutie_uitkomst_jaar
-  - electriciteit_infrastructuur
-  - gas_infrastructuur
   - warmte_infrastructuur
+  - labelsprong_woning
   - import/export_van_energie
   - hoeveelheid_duurzame_energieproductie
+  - ruimtelijke_weergave_2D
   - tabellen
   - grafieken
   - bij_meestook
@@ -35,36 +34,26 @@ properties:
   - lokaal_wind
   - geothermie
   - wkk
-  - micro_wkk
   - ruimteverwarming
   - vervoer
   - proceswarmte_industrie
   - elektriciteit
   - middenspanning
-  - midden_druk
+  - hoogspanning
   - lage_temperatuur
   - hoge_temperatur
+  - net_benaderd_middels_standaard_of_kengetal
   - elektrisch_vervoer_mobiliteit
-  - demand_response
-  - elektriciteits_opslag
-  - gas_opslag
-  - warmte_opslag
   - conversietechnologieen
-  - co2_afvang
-  - onderscheid_klantsegmenten
-  - per_uur
-  - per_dag
-  - per_week
-  - per_maand
   - per_jaar
-  - regio_profielen
-  - nationaal_profielen
-  - elektrisch_vervoer
-  - warmtepomp_vraag
-  - demand_response
+  - stakeholders
   - overheidsmaatregelen_instelbaar
   - framework
   - gereed_model
-  - 1_tot_10_mandagen
+  - 0_tot_halve_mandag
   - 1_tot_10_uur
-  - bedienbaar_middels_expert
+  - dienst/expertmodel
+  - product
+  - documentatie_over_model
+  - voorbeeldcases
+  - website_met_uitleg

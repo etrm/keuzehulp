@@ -1,6 +1,13 @@
-leaflet: http://www.netbeheernederland.nl/_upload/Files/Rekenmodellen_21_3266320d05.pdf
 name: pico
 properties:
+  - woning_schaal
+  - wijk_schaal
+  - stad_schaal
+  - regio_schaal
+  - nationaal_schaal
+  - visie_fase
+  - masterplan_fase
+  - capex_opex
   - co2_effecten
   - energievraag
   - energieproductie
@@ -8,6 +15,8 @@ properties:
   - labelsprong_woning
   - hoeveelheid_duurzame_energieproductie
   - ruimtelijke_weergave_2D
+  - tabellen
+  - grafieken
   - centraal_wind
   - wko
   - warmtepomp_groen
@@ -25,6 +34,7 @@ properties:
   - hoge_druk
   - lage_temperatuur
   - hoge_temperatur
+  - per_jaar
   - wijk_profielen
   - stad_profielen
   - regio_profielen
@@ -35,6 +45,9 @@ properties:
   - 0_uur
   - zelfstandig_bedienbaar
   - bedienbaar_middels_expert
+  - dienst/expertmodel
   - product
+  - openbaar
+  - gratis
   - documentatie_over_model
-  - voorbeeldcases
+  - website_met_uitleg

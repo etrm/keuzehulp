@@ -1,0 +1,28 @@
+- leaflet: https://www.netbeheernederland.nl/_upload/Files/Rekenmodellen_21_ccee20d197.pdf
+name: omons 
+properties:
+  - woning_schaal
+  - wijk_schaal
+  - inrichting_fase
+  - capex_opex
+  - co2_effecten
+  - energievraag
+  - tijdsresolutie_uitkomst_jaar
+  - warmte_infrastructuur
+  - pv
+  - lage_temperatuur
+  - hoge_temperatur
+  - per_jaar
+  - warmtepomp_vraag
+  - stakeholders
+  - simulatie_prijsvorming
+  - overheidsmaatregelen_instelbaar
+  - framework
+  - gereed_model
+  - 0_tot_halve_mandag
+  - 10_tot_100_uur
+  - zelfstandig_bedienbaar
+  - product
+  - documentatie_over_model
+  - voorbeeldcases
+  - website_met_uitleg
