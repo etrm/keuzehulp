@@ -1,0 +1,43 @@
+leaflet: https://www.netbeheernederland.nl/_upload/Files/Rekenmodellen_21_460167394c.pdf
+name: woonconnect
+properties:
+  - woning_schaal
+  - wijk_schaal
+  - inrichting_fase
+  - capex_opex
+  - co2_effecten
+  - energievraag
+  - energieproductie
+  - zichtjaar
+  - tussenjaren
+  - tijdsresolutie_uitkomst_maand
+  - tijdsresolutie_uitkomst_jaar
+  - labelsprong_woning
+  - import/export_van_energie
+  - hoeveelheid_duurzame_energieproductie
+  - ruimtelijke_weergave_3D
+  - tabellen
+  - grafieken
+  - wko
+  - warmtepomp_groen
+  - restwarmte
+  - lokaal_biogas
+  - collector
+  - pv
+  - lokaal_wind
+  - wkk
+  - micro_wkk
+  - ruimteverwarming
+  - per_maand
+  - per_jaar
+  - huishoudelijk_apparaat_profielen
+  - warmtepomp_vraag
+  - bestaande_marktrollen
+  - gereed_model
+  - 0_tot_halve_mandag
+  - 1_tot_10_uur
+  - zelfstandig_bedienbaar
+  - bedienbaar_middels_expert
+  - dienst/expertmodel
+  - product
+  - website_met_uitleg

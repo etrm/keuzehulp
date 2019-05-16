@@ -1,0 +1,33 @@
+leaflet: https://www.netbeheernederland.nl/_upload/Files/Rekenmodellen_21_c93181cc59.pdf
+name: windplanner
+properties:
+  - wijk_schaal
+  - stad_schaal
+  - regio_schaal
+  - nationaal_schaal
+  - internationaal_schaal
+  - visie_fase
+  - masterplan_fase
+  - stedenbouwkundig_fase
+  - inrichting_fase
+  - energieproductie
+  - zichtjaar
+  - hoeveelheid_duurzame_energieproductie
+  - ruimtelijke_weergave_3D
+  - ruimtelijke_weergave_2D
+  - centraal_wind
+  - pv_zonnepark
+  - pv
+  - lokaal_wind
+  - hoogspanning
+  - stakeholders
+  - gereed_model
+  - 0_tot_halve_mandag
+  - 0_uur
+  - 1_uur
+  - zelfstandig_bedienbaar
+  - dienst/expertmodel
+  - product
+  - documentatie_over_model
+  - voorbeeldcases
+  - website_met_uitleg

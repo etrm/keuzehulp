@@ -1,0 +1,33 @@
+leaflet: https://www.netbeheernederland.nl/_upload/Files/Rekenmodellen_21_dbe18df750.pdf
+name: het duurzaam dataplatform
+properties:
+  - woning_schaal
+  - wijk_schaal
+  - stad_schaal
+  - visie_fase
+  - masterplan_fase
+  - stedenbouwkundig_fase
+  - inrichting_fase
+  - capex_opex
+  - co2_effecten
+  - energievraag
+  - energieproductie
+  - tijdsresolutie_uitkomst_jaar
+  - labelsprong_woning
+  - hoeveelheid_duurzame_energieproductie
+  - ruimtelijke_weergave_3D
+  - ruimtelijke_weergave_2D
+  - tabellen
+  - warmtepomp_groen
+  - collector
+  - pv
+  - ruimteverwarming
+  - per_jaar
+  - bestaande_marktrollen
+  - 1_tot_10_mandagen
+  - 0_uur
+  - zelfstandig_bedienbaar
+  - dienst/expertmodel
+  - product
+  - documentatie_over_model
+  - voorbeeldcases
