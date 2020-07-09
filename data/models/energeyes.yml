@@ -1,0 +1,34 @@
+leaflet: https://www.netbeheernederland.nl/_upload/Files/Rekenmodellen_21_1c09cef95c.pdf
+name: energeyes
+properties:
+  - woning_schaal
+  - visie_fase
+  - masterplan_fase
+  - stedenbouwkundig_fase
+  - inrichting_fase
+  - capex_opex
+  - co2_effecten
+  - energievraag
+  - energieproductie
+  - zichtjaar
+  - tijdsresolutie_uitkomst_jaar
+  - hoeveelheid_duurzame_energieproductie
+  - tabellen
+  - grafieken
+  - warmtepomp_groen
+  - restwarmte
+  - lokaal_biogas
+  - collector
+  - pv
+  - ruimteverwarming
+  - elektriciteit
+  - per_dag
+  - per_jaar
+  - gereed_model
+  - 0_tot_halve_mandag
+  - 1_uur
+  - zelfstandig_bedienbaar
+  - bedienbaar_middels_expert
+  - product
+  - documentatie_over_model
+  - voorbeeldcases
