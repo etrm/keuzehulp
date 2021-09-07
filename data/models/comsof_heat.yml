@@ -1,0 +1,42 @@
+leaflet: https://www.netbeheernederland.nl/_upload/Files/Rekenmodellen_21_42f87cd17d.pdf
+name: comsof_heat
+properties:
+  - woning_schaal
+  - wijk_schaal
+  - stad_schaal
+  - regio_schaal
+  - visie_fase
+  - masterplan_fase
+  - stedenbouwkundig_fase
+  - inrichting_fase
+  - capex_opex
+  - energievraag
+  - zichtjaar
+  - tussenjaren
+  - tijdsresolutie_uitkomst_jaar
+  - warmte_infrastructuur
+  - ruimtelijke_weergave_2D
+  - tabellen
+  - grafieken
+  - bij_meestook
+  - centraal_grijs
+  - wko
+  - warmtepomp_groen
+  - restwarmte
+  - lokaal_biogas
+  - collector
+  - geothermie
+  - wkk
+  - lage_temperatuur
+  - hoge_temperatur
+  - per_jaar
+  - aansluiting
+  - wijk_profielen
+  - gereed_model
+  - 0_tot_halve_mandag
+  - 1_uur
+  - zelfstandig_bedienbaar
+  - dienst/expertmodel
+  - product
+  - documentatie_over_model
+  - voorbeeldcases
