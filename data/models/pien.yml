@@ -1,0 +1,38 @@
+leaflet: https://www.netbeheernederland.nl/_upload/Files/Rekenmodellen_21_fef8a7b997.pdf
+name: pien duurzaamheid woningcorporaties
+properties:
+  - woning_schaal
+  - wijk_schaal
+  - visie_fase
+  - masterplan_fase
+  - stedenbouwkundig_fase
+  - inrichting_fase
+  - capex_opex
+  - co2_effecten
+  - energievraag
+  - energieproductie
+  - zichtjaar
+  - tussenjaren
+  - tijdsresolutie_uitkomst_jaar
+  - labelsprong_woning
+  - ruimtelijke_weergave_2D
+  - tabellen
+  - grafieken
+  - warmtepomp_groen
+  - pv
+  - per_jaar
+  - nationaal_profielen
+  - warmtepomp_vraag
+  - bestaande_marktrollen
+  - stakeholders
+  - gereed_model
+  - 0_tot_halve_mandag
+  - 0_uur
+  - 1_uur
+  - zelfstandig_bedienbaar
+  - bedienbaar_middels_expert
+  - dienst/expertmodel
+  - product
+  - documentatie_over_model
+  - voorbeeldcases
+  - website_met_uitleg
