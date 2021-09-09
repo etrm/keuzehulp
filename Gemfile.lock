@@ -79,7 +79,7 @@ GEM
     debug_inspector (0.0.3)
     erubi (1.10.0)
     execjs (2.7.0)
-    ffi (1.9.21)
+    ffi (1.15.4)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
     haml (5.0.4)
@@ -109,7 +109,7 @@ GEM
     net-scp (3.0.0)
       net-ssh (>= 2.6.5, < 7.0.0)
     net-ssh (6.1.0)
-    nio4r (2.2.0)
+    nio4r (2.5.8)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
     pry (0.11.3)
@@ -117,7 +117,7 @@ GEM
       method_source (~> 0.9.0)
     pry-rails (0.3.6)
       pry (>= 0.10.4)
-    puma (5.4.0)
+    puma (4.3.8)
       nio4r (~> 2.0)
     rack (2.2.3)
     rack-test (0.8.2)
@@ -212,7 +212,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   pry-rails
-  puma
+  puma (< 5)
   rails (~> 5.1)
   sass-rails
   sdoc (~> 0.4.0)
@@ -225,4 +225,4 @@ RUBY VERSION
    ruby 2.4.2p198
 
 BUNDLED WITH
-   1.16.0
+   1.17.3
